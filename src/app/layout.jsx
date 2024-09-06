@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "../styles/globals.css"
+import Header from "../components/header";
 
 export const metadata = {
   title: "Captouris",
@@ -9,10 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+     <body>
+      <Header />
         {children}
         <footer> Aqui va el pie de página</footer>
       </body>
+     
     </html>
   );
 }

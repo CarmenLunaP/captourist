@@ -17,11 +17,11 @@ export default function Header() {
           DESTINOS
         </Link>
 
-        <Link href="/prices">
+        <Link href="/pricing">
           PRECIOS
         </Link>
 
-        <Link href="/howitwork">
+        <Link href="/how-it-works">
           CÓMO FUNCIONA
         </Link>
 
