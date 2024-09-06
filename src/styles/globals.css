@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    /* Colores principales */
+    --primary-color: #A2CCD8;   /* Color principal (azul) */
+    --secondary-color: #2BAAB2 ; /* Color secundario (naranja) */
+    
+    --background-color: #FFFFFF; /* Fondo de la página */
+  
+    /* Colores de texto */
+    --text-color-primary: #265669;
+    --text-color-secondary: #7F7F7F;
+  
+    /* Espaciado */
+    /* --padding-small: 8px;
+    --padding-medium: 16px;
+    --padding-large: 32px; */
+  
+    /* Tipografía */
+    --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'PT Sans', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
+    color: var(--text-color-primary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary); /* Titulares */
+  }
+  
+  p, a, li {
+    font-family: var(--font-secondary); /* Texto secundario */
+  }
+  
+
+  

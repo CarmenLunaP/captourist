@@ -1,0 +1,25 @@
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-secondary);
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .nav a {
+    color: var(--text-color-primary); 
+    font-family: var(--font-secondary);
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  /* .nav a:hover {
+    color: var(--accent-color);
+  } */
+  
+  
