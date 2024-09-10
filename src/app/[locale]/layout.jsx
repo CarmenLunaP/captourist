@@ -1,6 +1,13 @@
-import localFont from "next/font/local";
+
 import "../../styles/globals.css"
 import Header from "../../components/header";
+import Footer from "../../components/footer"
+import pick from "lodash/pick";
+import { 
+  NextIntlClientProvider,
+  useMessages,
+ } from "next-intl";
+
 
 export const metadata = {
   title: "Captouris",
@@ -11,12 +18,21 @@ export default function RootLayout({
   children,
   params: { locale },
  }) {
+  const messages = useMessages();
+
   return (
     <html lang={ locale }>
      <body>
-      <Header />
+      <NextIntlClientProvider messages={pick(messages, "clientCount")}>
+         <Header /> 
+      </NextIntlClientProvider>
+    
         {children}
-        <footer> Aqui va el pie de página</footer>
+        <NextIntlClientProvider messages={pick(messages, "clientCount")}>
+         <Footer /> 
+      </NextIntlClientProvider>
+        
+        
       </body>
      
     </html>

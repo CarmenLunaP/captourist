@@ -1,4 +1,4 @@
-.header {
+.container-header{
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -18,8 +18,5 @@
     margin-right: 15px;
   }
   
-  /* .nav a:hover {
-    color: var(--accent-color);
-  } */
   
   

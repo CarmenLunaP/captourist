@@ -1,5 +1,58 @@
 {
+    "header": {
+        "destination": "DESTINOS",
+        "pricing": "PRECIOS",
+        "howItWork": "CÓMO FUNCIONA",
+        "blog": "BLOG",
+        "specials": "ESPECIALS",
+        "en": "EN" 
+    },
+
+
     "home": {
         "title": "Hola Captourist"
+    },
+
+    "footer": {
+        "CaptureMemories": "Captura Recuerdos",
+        "CapMemoriesLink1":"Paquetes de vacaciones",
+        "CapMemoriesLink2":"Paquetes de propuestas",
+        "CapMemoriesLink3": "Fotógrafos de retratos",
+        "CapMemoriesLink4": "Historias de clientes",
+        "CapMemoriesLink5": "Imprimir fotografías",
+        "CapMemoriesLink6": "Regala una sesión fotográficas",
+        "CapMemoriesLink7": "Canjear una tarjeta de regalo",
+        "CapMemoriesLink8": "Recomiende a un amigo",
+        "CapMemoriesLink9": "Blog",
+
+        "PopularDestinations":"Popular Destinations",
+        "PopularDestLink1": "Verona",
+        "PopularDestLink2": "Singapur",
+        "PopularDestLink3": "Seoul",
+        "PopularDestLink4": "Hong Kong",
+        "PopularDestLink5": "Johanesburg",
+        "PopularDestLink6": "Londres",
+        "PopularDestLink7": "Florencia",
+        
+        "OurCompany":"Our Company",
+        "OurCompanyLink1": "Nuestra historia",
+        "OurCompanyLink2": "Contáctenos",
+        "OurCompanyLink3": "Tienda de viajes",
+        "OurCompanyLink4": "Prensa",
+        "OurCompanyLink5": "Conviértete en fotógrafo",
+        "OurCompanyLink6": "Asociate con nosotros",
+        "OurCompanyLink7": "Carreras",
+        "OurCompanyLink8": "Reviews",
+        "OurCompanyLink9": "Preguntas frecuentes",
+
+        "NewsLetter":"News Letter",
+        "NewsLettertext": "Manténgase en contacto para recibir boletines semanales, consejos de viaje y ofertas.",
+
+        "copyright":"© Copyright 2024 Captourist Enterprises. Todos los derechos reservados. Todas las fotografías están sujetas a derechos de autor y no pueden utilizarse sin el consentimiento por escrito de Captourist.",
+        "PrivacyPolicy": "Política de privacidad",
+        "CancellationPolicy":"Política de Cancelación",
+        "T&C": "Terminos y condiciones",
+        "hello": "Hello!",
+        "text1": "Get in Touch With Us"
     }
 }

@@ -1,0 +1,90 @@
+
+.footter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footter-up{
+    background-color: #E3E7ED;
+}
+
+.footter-up-left{
+    display: flex;
+    flex-direction: row;
+    font-style: none;
+}
+
+.fotterUp-link-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.footter-down {
+    background-color: #A2CCD8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+/* Quitar el subrayado de los enlaces */
+.fotterUp-link-section a {
+  text-decoration: none;
+  color: inherit; /* Para que mantenga el color original del texto */
+}
+
+/* Cambiar el cursor a pointer al pasar sobre los enlaces */
+.fotterUp-link-section a:hover {
+  cursor: pointer;
+  text-decoration: underline; /* Si quieres que el subrayado solo aparezca al pasar por encima */
+}
+
+/* Aplica lo mismo a otros enlaces, si es necesario */
+.copyright-Polices a {
+ margin: 8px;
+  color: #FFFFFF;;
+}
+
+.copyright-Polices a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+  .copyright-Polices {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+  }
+  
+  .footter-Right-donw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons img, .social-icons svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .h2{
+    color: #FFFFFF;
+  }
+  
