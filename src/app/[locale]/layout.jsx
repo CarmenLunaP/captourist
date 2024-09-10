@@ -1,15 +1,18 @@
 import localFont from "next/font/local";
-import "../styles/globals.css"
-import Header from "../components/header";
+import "../../styles/globals.css"
+import Header from "../../components/header";
 
 export const metadata = {
   title: "Captouris",
-  description: "Pagina web",
+  description: "Captourist Web Site",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ 
+  children,
+  params: { locale },
+ }) {
   return (
-    <html lang="en">
+    <html lang={ locale }>
      <body>
       <Header />
         {children}
