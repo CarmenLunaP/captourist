@@ -1,38 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .footter {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.footter-up{
-    background-color: #E3E7ED;
+/*----------footer up----------------------------*/
+
+.footter-up {
+  background-color: #e3e7ed;
+  padding-top: 10px;
 }
 
-.footter-up-left{
-    display: flex;
-    flex-direction: row;
-    font-style: none;
+.footter-up-left {
+  display: flex;
+  flex-direction: row;
+  font-style: none;
+  padding-left: 80px;
 }
 
-.fotterUp-link-section{
-    display: flex;
-    flex-direction: column;
+.footer-link {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  color: #7f7f7f;
+  text-decoration: none; /* Evitar subrayado */
 }
 
-.footter-down {
-    background-color: #A2CCD8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
+/* .footer-link:hover {
+  color: #000; 
+} */
+
+.fotterUp-link-section {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
 }
-
-
 
 /* Quitar el subrayado de los enlaces */
 .fotterUp-link-section a {
   text-decoration: none;
-  color: inherit; /* Para que mantenga el color original del texto */
+  color: inherit; 
 }
 
 /* Cambiar el cursor a pointer al pasar sobre los enlaces */
@@ -41,50 +51,130 @@
   text-decoration: underline; /* Si quieres que el subrayado solo aparezca al pasar por encima */
 }
 
-/* Aplica lo mismo a otros enlaces, si es necesario */
-.copyright-Polices a {
- margin: 8px;
-  color: #FFFFFF;;
+/*-------News letter------------*/
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
+
+.newsletter-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 312px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-size: 16px;
+  color: #a2ccd8; 
+  font-family: "TP Dans", sans-serif; 
+}
+
+.newsletter-button {
+  width: 312px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #a2ccd8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-button:hover {
+  background-color: #7cb5c7;
+}
+
+/*---------Footer down---------------------------*/
+
+.footter-down {
+  background-color: #a2ccd8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px 30px 20px;
+}
+
+.copyright-Polices {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 950px;
+  padding-right: 50px;
+  padding-left: 10px;
+  margin-bottom: 0%;
+ 
+}
+
+.Polices-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Polices-links p {
+  margin: 0;
+  color: #ffffff;
+}
+
+.Polices-links a {
+  color: #ffffff; 
+}
+
+.Polices-links a:last-child {
+  margin-right: 0; /* Elimina el margen del último enlace (opcional) */
+}
+
 
 .copyright-Polices a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
+.footter-Right-donw {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.hello {
+  font-family: var(--font-secondary);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0%;
+}
 
-  .copyright-Polices {
-    display: flex;
-    flex-direction: column;
-    color: #FFFFFF;
-  }
-  
-  .footter-Right-donw{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  color: #ffffff;
+}
 
-  .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-    color: #FFFFFF;
-  }
-  
-  .social-icons a {
-    display: flex;
-    align-items: center;
-  }
-  
-  .social-icons img, .social-icons svg {
-    width: 24px;
-    height: 24px;
-  }
+.social-icons a {
+  display: flex;
+  align-items: center;
+}
 
-  .h2{
-    color: #FFFFFF;
-  }
-  
+.social-icons img,
+.social-icons svg {
+  width: 20px;
+  height: 20px;
+}
+
+.h2 {
+  color: #ffffff;
+}

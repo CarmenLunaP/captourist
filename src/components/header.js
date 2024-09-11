@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import "../styles/header.css";  
 import { useTranslations } from "next-intl";
+import { FaChevronDown } from "react-icons/fa";
+
 
 export default function Header() {
   const t = useTranslations("header");
@@ -13,7 +15,7 @@ export default function Header() {
       <div className="container-header">
         {/* Logo */}
         <div className="logo">
-          <Image src="/LOGO-CAPTOURIST-2.png" alt="Captourist Logo" width={150} height={50} />
+          <Image src="/LOGO-CAPTOURIST-2.png" alt="Captourist Logo" width={235} height={60} />
         </div>
 
         {/* Navegación */}
@@ -22,8 +24,8 @@ export default function Header() {
           <Link href="/pricing">{t("pricing")}</Link>
           <Link href="/how-it-works">{t("howItWork")}</Link>
           <Link href="/blog">{t("blog")}</Link>
-          <Link href="/specials">{t("specials")}</Link>
-          <Link href="/english">{t("en")}</Link>
+          <Link href="/specials">{t("specials")} <FaChevronDown /> </Link>
+          <Link href="/"  >{t("en")}</Link>
         </nav>
       </div>
     </header>

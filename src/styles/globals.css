@@ -3,6 +3,7 @@
 
 
 :root {
+  
     /* Colores principales */
     --primary-color: #A2CCD8;   /* Color principal (azul) */
     --secondary-color: #2BAAB2 ; /* Color secundario (naranja) */
@@ -23,17 +24,34 @@
     --font-secondary: 'PT Sans', sans-serif;
   }
   
-  body {
+  html, body {
+    display: flex;
+    flex-direction: column;
     margin: 0px;
-  
+    height: 100%; /* Asegúrate de que html y body ocupen toda la altura de la ventana */
+    margin: 0;
     font-family: var(--font-primary);
     background-color: var(--background-color);
     color: var(--text-color-primary);
   }
 
+  main {
+    flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-primary); 
   }
+
+  h3{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    padding: 0%;
+  }
+
+
+
+
   
   p, a, li {
     font-family: var(--font-secondary); 
