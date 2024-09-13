@@ -11,8 +11,20 @@
 
     },
     
+   
     "home": {
-        "title": "Hello Captourist"
+
+        "sec-1-title": "Hire a profesional photographer in Paris, and around the world.",
+        "sec-1-text1" :"Choose your destination and smile!, we are here to capture your moments by the hand of the best photographer in Paris, and around the world.",
+        "sec-1-text2" : "DFrom 190€",
+        "secc-1-placeholder1": "Find your destination",
+
+        "sec-2-title": "BONJOUR!",
+         "sec-2-title1":"We are Fernanda & Pablo, your photographers in Paris.",
+        "sec-2-text1": "Thanks to our network of photographer friends that we have carefully built around the world, we can help you live the experience not only in Paris but in any destination in the world, such as London, Rome, Venice, Madrid, Milan, etc. Taking a photo session and hire a profesional photographer is essential on your trip. We guarantee an unforgettable experience.",
+
+        "sec-2-text-btn1": "leer más"
+
     },
 
     "footer": {

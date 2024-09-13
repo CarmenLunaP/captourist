@@ -5,8 +5,8 @@
 :root {
   
     /* Colores principales */
-    --primary-color: #A2CCD8;   /* Color principal (azul) */
-    --secondary-color: #2BAAB2 ; /* Color secundario (naranja) */
+    --primary-color: #A2CCD8;   
+    --secondary-color: #2BAAB2 ;
     
     --background-color: #FFFFFF; /* Fondo de la página */
   
@@ -14,45 +14,56 @@
     --text-color-primary: #265669;
     --text-color-secondary: #7F7F7F;
   
-    /* Espaciado */
-    /* --padding-small: 8px;
-    --padding-medium: 16px;
-    --padding-large: 32px; */
-  
     /* Tipografía */
     --font-primary: 'Playfair Display', serif;
     --font-secondary: 'PT Sans', sans-serif;
   }
+
+  .main {
+    flex: 1;
+  }
   
   html, body {
+    
     display: flex;
     flex-direction: column;
     margin: 0px;
-    height: 100%; /* Asegúrate de que html y body ocupen toda la altura de la ventana */
+    height: 100%; 
     margin: 0;
-    font-family: var(--font-primary);
+    /* font-family: var(--font-primary); */
     background-color: var(--background-color);
-    color: var(--text-color-primary);
+    /* color: var(--text-color-primary); */
   }
 
-  main {
-    flex: 1; /* Permite que el contenedor principal ocupe el espacio disponible */
-  }
 
-  h1, h2, h3, h4, h5, h6 {
+  /* h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-primary); 
+  } */
+
+  .h1{
+    font-family: var(--font-primary); 
+    color: var(--text-color-primary);
+    font-size: 32px;
+    margin: 0 0 10px 0;
+    padding: 0%;
+  }
+
+  .h2 {
+    font-size: 20px;
+    font-family: var(--font-secondary); 
+    color: var(--text-color-secondary);
+    margin: 0 0 10px 0;
+    padding: 0%;
   }
 
   h3{
+    font-family: var(--font-primary); 
+    color: var(--text-color-primary);
     font-size: 20px;
     margin: 0 0 10px 0;
     padding: 0%;
   }
 
-
-
-
-  
   p, a, li {
     font-family: var(--font-secondary); 
   }

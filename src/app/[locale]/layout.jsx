@@ -23,16 +23,16 @@ export default function RootLayout({
   return (
     <html lang={ locale }>
      <body>
+      <main>
       <NextIntlClientProvider messages={pick(messages, "clientCount")}>
          <Header /> 
       </NextIntlClientProvider>
-    
-        {children}
+            {children}
         <NextIntlClientProvider messages={pick(messages, "clientCount")}>
          <Footer /> 
       </NextIntlClientProvider>
         
-        
+      </main>
       </body>
      
     </html>

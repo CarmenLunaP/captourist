@@ -1,0 +1,228 @@
+/*-----------Seccion 1 -------------------*/
+
+.sec-1-home {
+  padding: 30px;
+  margin: 0%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.secc-1-slider {
+  width: 50%; 
+  max-width: 650px; 
+  height: 418px; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+.secc-1-texto {
+  width: 50%;
+  padding-right: 32px;
+}
+
+.sec-1-title {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+}
+
+.sec-1-title1 {
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  font-weight: lighter;
+}
+
+.sec-1-title2 {
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+/*---Imput---*/
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  padding-top: 14px;
+  left: 10px;
+  font-size: 18px;
+  color: #ccc; /* Color del ícono */
+}
+
+.input-field {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 10px 10px 35px; /* Aumenta el padding izquierdo para que no se superponga con el ícono */
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-field::placeholder {
+  color: #ccc;
+  font-size: 16px;
+  /* Puedes ajustar estos estilos para que el placeholder combine con el ícono */
+}
+
+/*---------Seccion 2-----------------*/
+
+.sec-2-home {
+  padding: 30px;
+  margin: 0%;
+  display: flex;
+}
+
+.secc-2-texto {
+  width: 50%;
+  padding-left: 32px;
+  text-align: center;
+}
+
+.secc-2-slider {
+  margin-left: 30px;
+  width: 100%; /* Ajusta según sea necesario */
+  max-width: 600px; /* O el tamaño máximo deseado */
+  height: auto; /* Ajusta según sea necesario */
+  position: relative; /* Necesario para el layout "fill" de Next.js */
+  overflow: hidden; /* Para evitar que la imagen se desborde */
+}
+
+
+
+/*-----------Seccion 3--------------*/
+
+
+
+.sec-3-home {
+  padding: 50px 0;
+  margin-left: 0;
+}
+
+.sec-3-title {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sec-3-subtitle {
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.sec-3-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+.card {
+  padding: 5px;
+  width: 250px;
+  position: relative;
+  text-align: left; /* Alinear todo el contenido a la izquierda */
+  display: flex;
+  flex-direction: column; /* Apilar elementos en columna */
+}
+
+.card img {
+  border-radius: 5px;
+  width: 245px;
+  height: 202px;
+}
+
+.sec-3-card-title {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  font-size: 20px;
+  margin-top: 10px; /* Añadir un margen superior para espaciado */
+  margin-left: 20px; /* Alinear a la izquierda */
+  padding: 0;
+}
+
+.sec-3-card-subtitle {
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  margin-top: 0px; /* Ajustar espacio vertical entre subtítulo y título */
+  margin-left: 20px; /* Alinear a la izquierda */
+  padding: 0;
+}
+
+.sec-3-card-link {
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: auto; /* Empuja el enlace hacia el final del contenedor */
+  margin-left: 20px; /* Alinear a la izquierda */
+}
+
+.sec-3-card-link:hover {
+  text-decoration: underline;
+}
+
+
+.sec-3-btn {
+  display: flex;
+  justify-content: center; /* Alinear los botones al centro */
+  gap: 100px; /* Espacio entre los botones */
+  margin-top: 20px;
+}
+
+.secc-3-btn1 {
+  width: 319px;
+  height: 41px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: white; /* Fondo blanco */
+  color: #265669; /* Texto azul */
+  border: 2px solid #265669; /* Borde azul */
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer; /* Cursor en mano */
+  transition: background-color 0.3s ease; /* Transición suave al hover */
+}
+
+.secc-3-btn1:hover {
+  background-color: lightblue; /* Cambio de fondo al pasar el ratón */
+}
+
+.secc-3-btn2 {
+  width: 319px;
+  height: 41px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  background-color: #2BAAB2; /* Fondo azul */
+  color: white; /* Texto blanco */
+  border: 2px solid #2BAAB2; /* Borde azul */
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 3px;
+  cursor: pointer; /* Cursor en mano */
+  transition: background-color 0.3s ease; /* Transición suave al hover */
+}
+
+.secc-3-btn2:hover {
+  background-color: lightblue; /* Cambio de fondo al pasar el ratón */
+}
+
