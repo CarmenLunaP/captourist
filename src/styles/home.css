@@ -8,11 +8,11 @@
 }
 
 .secc-1-slider {
-  width: 50%; 
-  max-width: 650px; 
-  height: 418px; 
-  position: relative; 
-  overflow: hidden; 
+  width: 50%;
+  max-width: 650px;
+  height: 418px;
+  position: relative;
+  overflow: hidden;
 }
 
 .secc-1-texto {
@@ -72,7 +72,7 @@
   /* Puedes ajustar estos estilos para que el placeholder combine con el ícono */
 }
 
-/*---------Seccion 2-----------------*/
+/*---------Seccion 2 - Bonjour-----------------*/
 
 .sec-2-home {
   padding: 30px;
@@ -88,18 +88,14 @@
 
 .secc-2-slider {
   margin-left: 30px;
-  width: 100%; /* Ajusta según sea necesario */
-  max-width: 600px; /* O el tamaño máximo deseado */
-  height: auto; /* Ajusta según sea necesario */
-  position: relative; /* Necesario para el layout "fill" de Next.js */
-  overflow: hidden; /* Para evitar que la imagen se desborde */
+  width: 100%; 
+  max-width: 600px; 
+  height: auto; 
+  position: relative; 
+  overflow: hidden; 
 }
 
-
-
 /*-----------Seccion 3--------------*/
-
-
 
 .sec-3-home {
   padding: 50px 0;
@@ -135,9 +131,9 @@
   padding: 5px;
   width: 250px;
   position: relative;
-  text-align: left; /* Alinear todo el contenido a la izquierda */
+  text-align: left;
   display: flex;
-  flex-direction: column; /* Apilar elementos en columna */
+  flex-direction: column;
 }
 
 .card img {
@@ -150,8 +146,8 @@
   font-family: var(--font-primary);
   color: var(--text-color-primary);
   font-size: 20px;
-  margin-top: 10px; /* Añadir un margen superior para espaciado */
-  margin-left: 20px; /* Alinear a la izquierda */
+  margin-top: 10px;
+  margin-left: 20px;
   padding: 0;
 }
 
@@ -159,8 +155,8 @@
   font-family: var(--font-secondary);
   color: var(--text-color-secondary);
   font-size: 16px;
-  margin-top: 0px; /* Ajustar espacio vertical entre subtítulo y título */
-  margin-left: 20px; /* Alinear a la izquierda */
+  margin-top: 0px;
+  margin-left: 20px;
   padding: 0;
 }
 
@@ -170,19 +166,18 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  margin-top: auto; /* Empuja el enlace hacia el final del contenedor */
-  margin-left: 20px; /* Alinear a la izquierda */
+  margin-top: auto;
+  margin-left: 20px;
 }
 
 .sec-3-card-link:hover {
   text-decoration: underline;
 }
 
-
 .sec-3-btn {
   display: flex;
-  justify-content: center; /* Alinear los botones al centro */
-  gap: 100px; /* Espacio entre los botones */
+  justify-content: center;
+  gap: 100px;
   margin-top: 20px;
 }
 
@@ -191,19 +186,19 @@
   height: 41px;
   border-radius: 4px;
   padding: 10px 20px;
-  background-color: white; /* Fondo blanco */
-  color: #265669; /* Texto azul */
-  border: 2px solid #265669; /* Borde azul */
+  background-color: white;
+  color: #265669;
+  border: 2px solid #265669;
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 3px;
-  cursor: pointer; /* Cursor en mano */
-  transition: background-color 0.3s ease; /* Transición suave al hover */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .secc-3-btn1:hover {
-  background-color: lightblue; /* Cambio de fondo al pasar el ratón */
+  background-color: lightblue;
 }
 
 .secc-3-btn2 {
@@ -211,18 +206,379 @@
   height: 41px;
   border-radius: 4px;
   padding: 10px 20px;
-  background-color: #2BAAB2; /* Fondo azul */
-  color: white; /* Texto blanco */
-  border: 2px solid #2BAAB2; /* Borde azul */
+  background-color: #2baab2;
+  color: white;
+  border: 2px solid #2baab2;
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 3px;
-  cursor: pointer; /* Cursor en mano */
-  transition: background-color 0.3s ease; /* Transición suave al hover */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .secc-3-btn2:hover {
-  background-color: lightblue; /* Cambio de fondo al pasar el ratón */
+  background-color: lightblue;
+}
+
+/*----------Seccion 4 - Photographer Guarante-------------------*/
+
+.sec-4-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.sec-4-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sec-4-image img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.sec-4-guarantee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #e8f5f7;
+  border-radius: 8px;
+}
+
+.sec-4-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.sec-4-text {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.sec-4-button {
+  background-color: #2baab2;
+  color: white;
+  width: 151px;
+  height: 41px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec-4-button:hover {
+  background-color: #e8f6ff;
+}
+
+/*----------- SECCION 5: How Captourist Works---------------------- */
+.sec-5-home {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.sec-5-title h2 {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  text-align: center;
+  font-size: 20px;
+ 
+  margin-bottom: 0;
+ 
+  margin-bottom: 0%;
+}
+
+.secc-5-text-content{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+gap: 10px;
+
+} 
+
+.sec-5-title p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin: 10px 0;
+}
+
+.sec-5-title a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sec-5-steps {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 20%;
+  min-width: 250px;
+  /* padding: 20px; */
+}
+
+.step h3 {
+  font-size: 86px;
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  margin-bottom: 10px;
+}
+
+.step h4 {
+  font-size: 28px;
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  margin-top: 0%;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .sec-5-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/*--------Seccion 6 --------------*/
+
+.sec-6-home {
+  padding: 50px 0;
+  margin-left: 0;
+}
+
+.sec-6-title {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.sec-6-subtitle {
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.sec-6-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card-6 {
+  border: 1px solid #DDDDDD;
+  padding: 5px;
+  width: 420px;
+  height: 498px;
+ 
+  position: relative;
+  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-6 img {
+  width: 405px;
+  height: 283px;
+}
+
+.sec-6-cards-text{
+  width: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.sec-3-card-title {
+  font-family: var(--font-primary);
+  color: var(--text-color-primary);
+  font-size: 20px;
+  margin-top: 10px;
+ 
+  padding: 0;
+}
+
+.sec-6-card-subtitle {
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  font-size: 16px;
+  margin-top: 0px;
+ 
+  padding: 0;
+}
+
+.sec-6-button{
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  background-color: transparent;
+  border-color: 0.8px #265669;
+  border-radius: 4px;
+  width: 358px;
+  height: 56px;
+  margin-top: 20px;
+}
+
+
+/*-------- Seccion 7 -------*/
+
+
+.sec-7-content {
+  height: 300px;
+  display: flex;
+  padding: 20px;
+  margin-left: 40px;
+  position: relative; /* Necesario para posicionar los elementos hijos con absolute */
+  overflow: hidden; /* Evita que la imagen se desborde fuera del contenedor */
+}
+
+.sec-7-image {
+  width: 30%;
+  height: 300px;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  opacity: 0.9;
+  position: absolute;
+  right: 0; /* Mueve la imagen hacia la derecha */
+  top: 0; /* Alinea la imagen en la parte superior */
+  z-index: 1; /* Asegura que la imagen esté detrás del texto */
+}
+
+.sec-7-guarantee {
+  position: relative; /* El texto estará en relación al contenedor */
+  z-index: 2; /* El texto se superpondrá sobre la imagen */
+  margin-left: 20px; /* Ajusta el margen según cómo quieras posicionar el texto sobre la imagen */
+ ; /* Asegura que el texto sea visible sobre la imagen */
+}
+
+
+
+.sec-7-home {
+  width: 100%;
+ 
+  position: relative;
+  overflow: hidden; /* Asegura que ningún contenido, incluyendo la imagen, se desborde fuera de la sección */
+}
+
+
+.sec-7-button {
+  background-color: #2baab2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec-7-button:hover {
+  background-color: #e8f6ff;
+}
+
+
+
+/*----Seccion 8 -Instagram -----*/
+
+.sec-8-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.sec-8-content {
+  text-align: center;
+}
+
+.instagram{
+  border: 1px solid #E3E7ED;
+  width: 310px;
+  height: 609px;
+
+}
+
+.sec-8-instagram-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.sec-8-instagram-profile{
+
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  
+}
+
+.sec-8-instagram-icon {
+ 
+  margin-right: 10px;
+}
+
+.sec-8-button {
+  font-family: var(--font-secondary);
+  font-size: 15px;
+  width: 99px;
+  height: 30px;
+  background-color: #178DFA;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sec-8-button:hover {
+  background-color: #e8f6ff;
+}
+
+
+
+/*----------- Seccionn 9 - testimonies----------*/
+
+.testimonies{
+  background-color: #F5F5F5;
+  height: 200px;
 }
 

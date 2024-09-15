@@ -1,72 +1,115 @@
 {
-    "header": {
-        "destination": "DESTINATIONS",
-        "pricing": "PRICING",
-        "howItWork": "HOW IT WORKS",
-        "blog": "BLOG",
-        "specials": "SPECIALS",
-         "es": "ES" ,
-         "en": "EN"
+  "header": {
+    "destination": "DESTINATIONS",
+    "pricing": "PRICING",
+    "howItWork": "HOW IT WORKS",
+    "blog": "BLOG",
+    "specials": "SPECIALS",
+    "es": "ES",
+    "en": "EN"
+  },
 
+  "home": {
+    "sec-1-title": "Hire a profesional photographer in Paris, and around the world.",
+    "sec-1-text1": "Choose your destination and smile!, we are here to capture your moments by the hand of the best photographer in Paris, and around the world.",
+    "sec-1-text2": "From 190€",
+    "secc-1-placeholder1": "Find your destination",
 
-    },
-    
-   
-    "home": {
+    "sec-2-title": "BONJOUR!",
+    "sec-2-title1": "We are Fernanda & Pablo, your photographers in Paris.",
+    "sec-2-text1": "Thanks to our network of photographer friends that we have carefully built around the world, we can help you live the experience not only in Paris but in any destination in the world, such as London, Rome, Venice, Madrid, Milan, etc. Taking a photo session and hire a profesional photographer is essential on your trip. We guarantee an unforgettable experience.",
+    "sec-2-text-btn1": "Learn more",
 
-        "sec-1-title": "Hire a profesional photographer in Paris, and around the world.",
-        "sec-1-text1" :"Choose your destination and smile!, we are here to capture your moments by the hand of the best photographer in Paris, and around the world.",
-        "sec-1-text2" : "DFrom 190€",
-        "secc-1-placeholder1": "Find your destination",
+    "sec-3-title": "Celebrate life through hiring a photographer in Paris and around the world",
+    "sec-3-subtitle": "Get inspired to create your own beautiful moments!",
 
-        "sec-2-title": "BONJOUR!",
-         "sec-2-title1":"We are Fernanda & Pablo, your photographers in Paris.",
-        "sec-2-text1": "Thanks to our network of photographer friends that we have carefully built around the world, we can help you live the experience not only in Paris but in any destination in the world, such as London, Rome, Venice, Madrid, Milan, etc. Taking a photo session and hire a profesional photographer is essential on your trip. We guarantee an unforgettable experience.",
+    "sec-3-card1-title": "Travel",
+    "sec-3-card1-text": "Capture the magic of trave",
 
-        "sec-2-text-btn1": "leer más"
+    "sec-3-card2-title": "Hometown",
+    "sec-3-card2-text": "Treasure your hometown memories",
 
-    },
+    "sec-3-card3-title": "Headshots",
+    "sec-3-card3-text": "Show the world who you are",
 
-    "footer": {
-        "CaptureMemories": "Capture Memories",
-        "CapMemoriesLink1":"Vacation Packages",
-        "CapMemoriesLink2":"Proposal Packages",
-        "CapMemoriesLink3": "Headshot Photographers",
-        "CapMemoriesLink4": "Customer Stories",
-        "CapMemoriesLink5": "Print Photos",
-        "CapMemoriesLink6": "Gift a Shoot",
-        "CapMemoriesLink7": "Redeem a Gift Card",
-        "CapMemoriesLink8": "Refer a Friend",
-        "CapMemoriesLink9": "Blog",
+    "sec-3-card4-title": "Wedding",
+    "sec-3-card4-text": "Capture your proposal and pre-wedding moments..",
 
-        "PopularDestinations":"Popular Destinations",
-        "PopularDestLink1": "Verona",
-        "PopularDestLink2": "Singapore",
-        "PopularDestLink3": "Seoul",
-        "PopularDestLink4": "Hong Kong",
-        "PopularDestLink5": "Johannesburg",
-        "PopularDestLink6": "London",
-        "PopularDestLink7": "Florenc",
-        
-        "OurCompany":"Our Company",
-        "OurCompanyLink1": "Our Story",
-        "OurCompanyLink2": "Contact Us",
-        "OurCompanyLink3": "Travel Shop",
-        "OurCompanyLink4": "Press",
-        "OurCompanyLink5": "Become a Photographer",
-        "OurCompanyLink6": "Partner with Us",
-        "OurCompanyLink7": "Careers",
-        "OurCompanyLink8": "Reviews",
-        "OurCompanyLink9": "FAQ",
+    "sec-3-card-link": "Learn more >",
 
-        "NewsLetter":"News Letter",
-        "NewsLettertext": "Stay in touch for weekly newsletters, travel tips, and deals.",
+    "sec-3-text-btn1": "View Princing",
+    "sec-3-text-btn2": "Destinations",
 
-        "copyright":"© Copyright 2024 Captourist Enterprises. All Rights Reserved. All photos are subject to copyright and may not be used without written consent from Captourist.",
-        "PrivacyPolicy": "Privacy Policy",
-        "CancellationPolicy":"Cancellation Policy",
-        "T&C": "Terms and Conditions",
-        "hello": "Hello!",
-        "text1": "Get in Touch With Us"
-    }
+    "sec-4-title": "Excellent Custom Experience",
+    "sec-4-text1": "High quality photographers, worry-free booking process, and exceptional photos every time",
+    "sec-4-text-btn1": "Learn more",
+
+    "sec-5-title": "How Captourist Works",
+    "sec-5-text1": "Make any occasion unforgettable in three simple steps. ",
+    "sec-5-link": " Learn more >",
+    "sec-5-step1-title": "Book your shoot",
+    "sec-5-step1-text": "Request your date and select your destination",
+    "sec-5-step2-title": "Plan",
+    "sec-5-step2-text": "Your photographer will arrive on time with their pro-gear to capture your moments and deliver a great time.",
+    "sec-5-step3-title": "Day of the shoot",
+    "sec-5-step3-text": "Your photos will be delivered within 5 days after the session,  to view, download and share them as you like.",
+    "sec-5-step4-title": "Download and enjoy!",
+    "sec-5-step4-text": "Our editors will enhance your photos that will be delivered within 5 days after the session,  to view, download and share them as you like.",
+  
+  
+  
+    "sec-7-title":"Ready to make your life memorable?",
+    "sec-7-text1":"Start bookomg your photo shoot",
+    "sec-7-text-btn1":"book Now",
+
+    "sec-8-title":"Take a peek behind the scenes!",
+    "sec-8-text-btn1":"View profile",
+
+    "sec-9-title": "Testimonies",
+
+     "sec-10-title":"Our Trusted Partners"
+  },
+ 
+  "footer": {
+    "CaptureMemories": "Capture Memories",
+    "CapMemoriesLink1": "Vacation Packages",
+    "CapMemoriesLink2": "Proposal Packages",
+    "CapMemoriesLink3": "Headshot Photographers",
+    "CapMemoriesLink4": "Customer Stories",
+    "CapMemoriesLink5": "Print Photos",
+    "CapMemoriesLink6": "Gift a Shoot",
+    "CapMemoriesLink7": "Redeem a Gift Card",
+    "CapMemoriesLink8": "Refer a Friend",
+    "CapMemoriesLink9": "Blog",
+
+    "PopularDestinations": "Popular Destinations",
+    "PopularDestLink1": "Verona",
+    "PopularDestLink2": "Singapore",
+    "PopularDestLink3": "Seoul",
+    "PopularDestLink4": "Hong Kong",
+    "PopularDestLink5": "Johannesburg",
+    "PopularDestLink6": "London",
+    "PopularDestLink7": "Florenc",
+
+    "OurCompany": "Our Company",
+    "OurCompanyLink1": "Our Story",
+    "OurCompanyLink2": "Contact Us",
+    "OurCompanyLink3": "Travel Shop",
+    "OurCompanyLink4": "Press",
+    "OurCompanyLink5": "Become a Photographer",
+    "OurCompanyLink6": "Partner with Us",
+    "OurCompanyLink7": "Careers",
+    "OurCompanyLink8": "Reviews",
+    "OurCompanyLink9": "FAQ",
+
+    "NewsLetter": "News Letter",
+    "NewsLettertext": "Stay in touch for weekly newsletters, travel tips, and deals.",
+
+    "copyright": "© Copyright 2024 Captourist Enterprises. All Rights Reserved. All photos are subject to copyright and may not be used without written consent from Captourist.",
+    "PrivacyPolicy": "Privacy Policy",
+    "CancellationPolicy": "Cancellation Policy",
+    "T&C": "Terms and Conditions",
+    "hello": "Hello!",
+    "text1": "Get in Touch With Us"
+  }
 }
