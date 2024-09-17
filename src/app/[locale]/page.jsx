@@ -16,7 +16,7 @@ export default function Home() {
           <div className="secc-1-slider">
             <Image
               src="/img/homepagemoment16-600x374.png"
-              alt="Captourist Logo"
+              alt="Captourist slider home"
               layout="fill"
               objectFit="cover"
             />
@@ -32,7 +32,7 @@ export default function Home() {
                 <FaMapMarkerAlt className="input-icon" />
                 <input
                   type="text"
-                  placeholder="Busca tu destino preferido..."
+                  placeholder={t("secc-1-placeholder1")}
                   className="input-field"
                 />
               </div>
@@ -54,8 +54,8 @@ export default function Home() {
           <div className="secc-2-texto">
             <h1 className="sec-1-title">{t("sec-2-title")}</h1>
             {/* <h1>{t("sec-1-title1")}</h1> */}
-            <h2 className="sec-1-title1">{t("sec-2-text1")}</h2>
-            <h2 className="sec-1-title1">{t("sec-2-text2")}</h2>
+            <h2 className="sec-2-title1">{t("sec-2-text1")}</h2>
+            <h2 className="sec-2-title1">{t("sec-2-text2")}</h2>
             <button type="submit" className="newsletter-button">
               {t("sec-2-text-btn1")}
             </button>
@@ -141,8 +141,8 @@ export default function Home() {
               <Image
                 src="/img/pabloyfernanda800x700-600x525.jpg"
                 alt="Photographer"
-                width={520}
-                height={520}
+                width={561}
+                height={298}
               />
             </div>
             <div className="sec-4-guarantee">
@@ -152,7 +152,7 @@ export default function Home() {
                 width={125}
                 height={40}
               />
-              <h1 className="sec-1-title">{t("sec-4-title")}</h1>
+              <h1 className="sec-4-title">{t("sec-4-title")}</h1>
               <p className="sec-4-text">{t("sec-4-text1")}</p>
               <button className="sec-4-button"> {t("sec-4-text-btn1")}</button>
             </div>
@@ -160,31 +160,31 @@ export default function Home() {
         </div>
 
         {/* SECCCION 5 - How Captourist Works*/}
-        <section class="sec-5-home">
-          <div class="sec-5-title">
+        <section className="sec-5-home">
+          <div className="sec-5-title">
             <h2>{t("sec-5-title")}</h2>
             <div className="secc-5-text-content">
               <p>{t("sec-5-text1")}</p>
               <a href="#">{t("sec-5-link")} </a>
             </div>
           </div>
-          <div class="sec-5-steps">
-            <div class="step">
+          <div className="sec-5-steps">
+            <div className="step">
               <h3>01</h3>
               <h4>{t("sec-5-step1-title")}</h4>
               <p>{t("sec-5-step1-text")}</p>
             </div>
-            <div class="step">
+            <div className="step">
               <h3>02</h3>
               <h4>{t("sec-5-step2-title")}</h4>
               <p>{t("sec-5-step2-text")}</p>
             </div>
-            <div class="step">
+            <div className="step">
               <h3>03</h3>
               <h4>{t("sec-5-step3-title")}</h4>
               <p>{t("sec-5-step3-text")}</p>
             </div>
-            <div class="step">
+            <div className="step">
               <h3>04</h3>
               <h4>{t("sec-5-step4-title")}</h4>
               <p>{t("sec-5-step4-text")}</p>
@@ -305,23 +305,45 @@ export default function Home() {
           </div>
         </div>
 
-        {/* SECCCION 9 - Testimonios */}
-
-        <div className="sec-9-home">
-          <div className="sec-9-content">
-            <h1 className="sec-6-title">{t("sec-9-title")}</h1>
-            <div className="testimonies">
-            <p className="sec-1-title">Aqui los testimonios</p>
-            </div>
-          </div>
+      {/* SECCIÓN 9 - Testimonios */}
+<div className="sec-9-home">
+  <div className="sec-9-content">
+    <h1 className="sec-6-title">{t("sec-9-title")}</h1>
+    
+    <div className="testimonies">
+      <div className="testimony-card">
+        <div className="testimony-image">
+          <img src="/img/Venecia-800-600x383.jpg" alt="Testimonio Paris" />
         </div>
+        
+        <div className="testimony-text">
+          <p className="testimony-quote">
+            Estoy completamente encantada con las fotos de mi viaje a París 2024, y todo gracias al talentoso equipo de Captouris. Desde el primer contacto, su profesionalismo y pasión por capturar momentos mágicos fueron evidentes. ¡Cada foto es una obra de arte que refleja perfectamente la belleza y la emoción de mi viaje!
+          </p>
+          <div className="testimony-rating">
+            <span>⭐⭐⭐⭐⭐</span>
+            
+            <p className="testimony-location"> <FaMapMarkerAlt/> Paris</p>
+            
+          </div>
+          <div className="testimony-person">
+          <p className="testimony-name">Ana Rojas</p>
+          <p className="testimony-year">2024</p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         {/* SECCCION 10 - Partners */}
 
         <div className="sec-10-home">
           <div className="sec-10-content">
             <h1 className="sec-6-title">{t("sec-10-title")}</h1>
-            <p className="sec-1-title">Aqui socios</p>
+            <p className="sec-1-title">Aqui colocar los logos de los socios</p>
           </div>
         </div>
       </main>

@@ -1,12 +1,12 @@
 {
   "header": {
-    "destination": "DESTINATIONS",
-    "pricing": "PRICING",
-    "howItWork": "HOW IT WORKS",
-    "blog": "BLOG",
-    "specials": "SPECIALS",
-    "es": "ES",
-    "en": "EN"
+    "destination": "Destinations",
+    "pricing": "Princing",
+    "howItWork": "How it Works",
+    "blog": "Blog",
+    "specials": "Specials",
+    
+    "en": "ES"
   },
 
   "home": {

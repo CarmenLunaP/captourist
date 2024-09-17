@@ -16,12 +16,13 @@
     color: var(--text-color-primary); 
     font-family: var(--font-secondary);
     text-decoration: none;
-    margin-right: 15px;
-    font-size: 18px;
+    margin-right: 20px;
+    font-size: 15px;
   }
   
 
   .nav a:last-child {
+    margin-left: 208px;
     text-decoration: underline;
     color: #4C4C4C
   }

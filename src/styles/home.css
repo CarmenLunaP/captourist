@@ -13,6 +13,8 @@
   height: 418px;
   position: relative;
   overflow: hidden;
+  padding-right: 0%;
+  margin-right: 0%;
 }
 
 .secc-1-texto {
@@ -23,17 +25,18 @@
 .sec-1-title {
   font-family: var(--font-primary);
   color: var(--text-color-primary);
+  font-size: 32px;
 }
 
 .sec-1-title1 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: var(--font-secondary);
   color: var(--text-color-secondary);
   font-weight: lighter;
 }
 
 .sec-1-title2 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: var(--font-secondary);
   color: var(--text-color-secondary);
   margin-bottom: 0%;
@@ -42,6 +45,7 @@
 
 /*---Imput---*/
 .input-wrapper {
+  
   position: relative;
   display: flex;
   align-items: center;
@@ -53,23 +57,23 @@
   padding-top: 14px;
   left: 10px;
   font-size: 18px;
-  color: #ccc; /* Color del ícono */
+  color: #265669; 
 }
 
 .input-field {
   width: 100%;
-  max-width: 400px;
-  padding: 10px 10px 10px 35px; /* Aumenta el padding izquierdo para que no se superponga con el ícono */
+  max-width: 550px;
+  padding: 10px 10px 10px 35px; 
   margin-top: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #265669;
   border-radius: 5px;
   font-size: 16px;
 }
 
 .input-field::placeholder {
-  color: #ccc;
-  font-size: 16px;
-  /* Puedes ajustar estos estilos para que el placeholder combine con el ícono */
+  font-family: var(--font-secondary);
+  color: #7F7F7F;
+  font-size: 14px;
 }
 
 /*---------Seccion 2 - Bonjour-----------------*/
@@ -78,12 +82,26 @@
   padding: 30px;
   margin: 0%;
   display: flex;
+  background: -webkit-linear-gradient(-180deg, rgba(232, 245, 247, 0), #e8f5f7); /* Para Safari */
+  background: -moz-linear-gradient(-180deg, rgba(232, 245, 247, 0), #e8f5f7); /* Para Firefox */
+  background: linear-gradient(-180deg, rgba(232, 245, 247, 0), #e8f5f7); /* Estándar */
 }
 
 .secc-2-texto {
   width: 50%;
   padding-left: 32px;
   text-align: center;
+  
+}
+
+.sec-2-title1{
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  color: var(--text-color-secondary);
+  font-weight: lighter;
+margin-right: 10px;
+margin-left: 46px;
+padding-bottom: 10px;
 }
 
 .secc-2-slider {
@@ -94,6 +112,26 @@
   position: relative; 
   overflow: hidden; 
 }
+
+
+  .newsletter-button {
+    background-color: #2BAAB2;
+    width: 151px;
+    height: 32px;
+    font-family: var(--font-secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Opcional: para centrar el texto horizontalmente */
+    text-align: center; /* Asegura que el texto esté centrado */
+    border: none; /* Asegura que no haya bordes adicionales si es necesario */
+    cursor: pointer; /* Cambia el cursor para que parezca clickeable */
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+  
+
+
 
 /*-----------Seccion 3--------------*/
 
@@ -109,6 +147,7 @@
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 0;
+  padding-bottom: 0%;
 }
 
 .sec-3-subtitle {
@@ -118,6 +157,7 @@
   font-weight: bold;
   font-size: 20px;
   margin-bottom: 30px;
+  margin-top: 0%;
 }
 
 .sec-3-cards {
@@ -147,7 +187,8 @@
   color: var(--text-color-primary);
   font-size: 20px;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-bottom: 2px;
   padding: 0;
 }
 
@@ -156,18 +197,20 @@
   color: var(--text-color-secondary);
   font-size: 16px;
   margin-top: 0px;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-bottom: 4px;
   padding: 0;
 }
 
 .sec-3-card-link {
   font-family: var(--font-secondary);
-  color: var(--text-color-secondary);
+  color: #A2CCD8;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   margin-top: auto;
-  margin-left: 20px;
+  margin-left: 15px;
+  margin-bottom: 20px;
 }
 
 .sec-3-card-link:hover {
@@ -192,7 +235,7 @@
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 16px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -212,7 +255,7 @@
   font-family: var(--font-secondary);
   font-weight: bold;
   font-size: 16px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -227,8 +270,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 20px;
-  background-color: #f9f9f9;
+  padding-top: 50px;
+  margin-left: 30px;
+ 
 }
 
 .sec-4-content {
@@ -240,31 +284,49 @@
   margin: 0 auto;
 }
 
+.sec-4-home {
+  position: relative; /* Asegura que los elementos hijos con posición absoluta estén posicionados en relación a este contenedor */
+}
+
 .sec-4-image img {
+  margin-top: 94px;
   border-radius: 8px;
-  max-width: 100%;
-  height: auto;
+  margin-left: 40px;
+  position: absolute; /* Permite superponer la imagen */
+  top: -10px; /* Ajusta la posición vertical para que se superponga sobre el borde azul */
+  left: 0; /* Ajusta la posición horizontal si es necesario */
+  z-index: 1; /* Asegura que la imagen esté por encima del contenedor */
 }
 
 .sec-4-guarantee {
+
+  width: 692px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding-left: 100px;
   background-color: #e8f5f7;
   border-radius: 8px;
+  position: relative; /* Para que los elementos internos se posicionen en relación a este contenedor */
+  z-index: 0; /* Asegura que el contenedor esté detrás de la imagen */
 }
 
+
 .sec-4-title {
-  font-size: 1.5rem;
+  font-family: var(--font-secondary);
+  color: var(--text-color-primary);
+  font-size: 24px;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 0%;
+ 
 }
 
 .sec-4-text {
-  font-size: 1rem;
-  color: #666;
-  margin: 10px 0;
+  font-family: var(--font-secondary);
+  color: var(--text-color-primary);
+  font-size: 16px;
+  margin: 10px 0 35px 0;
 }
 
 .sec-4-button {
@@ -577,8 +639,89 @@ gap: 10px;
 
 /*----------- Seccionn 9 - testimonies----------*/
 
-.testimonies{
-  background-color: #F5F5F5;
-  height: 200px;
+
+
+.sec-9-content {
+  
+  max-width:100%;
+  margin: 0 auto;
+  text-align: center;
 }
+
+.sec-6-title {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.testimonies {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.testimony-card {
+  background-color: F5F5F5;
+ 
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 40px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.testimony-image img {
+  border-radius: 10px;
+  width: 352px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.testimony-text {
+  text-align: left;
+}
+
+.testimony-quote {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  line-height: 1.6;
+  color: #7F7F7F;
+  margin-top: 35px;
+}
+
+.testimony-name {
+  font-weight: bold;
+ 
+  padding: 0%;
+  margin: 0%;
+}
+
+.testimony-person {
+  text-align: right;
+}
+
+.testimony-year {
+  color: #7f8c8d;
+  font-size: 14px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.testimony-rating {
+  margin-top: 10px;
+}
+
+.testimony-rating span {
+  color: #f39c12;
+}
+
+.testimony-location {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-left: 0px;
+}
+
 

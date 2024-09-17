@@ -1,19 +1,19 @@
 {
   "header": {
-    "destination": "DESTINOS",
-    "pricing": "PRECIOS",
-    "howItWork": "CÓMO FUNCIONA",
-    "blog": "BLOG",
-    "specials": "ESPECIALS",
-    "es": "ES",
-    "en": "EN"
+    "destination": "Destinos",
+    "pricing": "Precios",
+    "howItWork": "Cómo Funciona",
+    "blog": "Blog",
+    "specials": "Especiales",
+    
+    "en": "En"
   },
 
   "home": {
     "sec-1-title": "Reserva tu fotógrafo en Paris y en cualquier parte del mundo.",
     "sec-1-text1": "Elige tu destino y ¡sonríe!, aquí estamos para capturar tus momentos acompañado del mejor fotógrafo en Paris y en cualquier parte del mundo.",
     "sec-1-text2": "Desde 190€",
-    "secc-1-placeholder1": "Encuentra tu fotógrafo por ciudad",
+    "secc-1-placeholder1": "Encuentra tu destino",
 
     "sec-2-title": "BONJOUR!",
     "sec-2-text1": "Somos Fernanda & Pablo, tus amigos fotógrafos profesionales en París. Te invitamos a vivir París con una sesión de fotos inolvidable y a llevarte a casa el mejor recuerdo.  Te garantizamos el mejor fotógrafo en Paris o en el mundo y una experiencia inolvidable y unas fotos que AMARÁS por siempre.",
