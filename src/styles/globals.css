@@ -29,7 +29,6 @@
     flex-direction: column;
     margin: 0px;
     height: 100%; 
-    margin: 0;
     /* font-family: var(--font-primary); */
     background-color: var(--background-color);
     /* color: var(--text-color-primary); */
@@ -69,10 +68,6 @@
   }
   
 
-  /* CSS Global o específico de Header y Footer */
-/* .container {
-  max-width: 1140px;  /* Limita el ancho máximo 
-} */
 
 
 

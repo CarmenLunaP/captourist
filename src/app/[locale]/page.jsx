@@ -1,9 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
+
 import "../../styles/globals.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import "../../styles/home.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { FiMapPin } from "react-icons/fi";
+import SliderHome from "@/components/slider-home";
+import SearchInput from "@/components/seachinput"
 
 export default function Home() {
   const t = useTranslations("home");
@@ -14,12 +18,7 @@ export default function Home() {
         {/* SECCCION 1 */}
         <div className="sec-1-home">
           <div className="secc-1-slider">
-            <Image
-              src="/img/homepagemoment16-600x374.png"
-              alt="Captourist slider home"
-              layout="fill"
-              objectFit="cover"
-            />
+          <SliderHome />
           </div>
 
           <div className="secc-1-texto">
@@ -28,21 +27,22 @@ export default function Home() {
             <h2 className="sec-1-title1">{t("sec-1-text1")}</h2>
             <h2 className="sec-1-title2">{t("sec-1-text2")}</h2>
             <div className="search-input">
-              <div className="input-wrapper">
-                <FaMapMarkerAlt className="input-icon" />
+              {/* <div className="input-wrapper">
+                <FiMapPin className="input-icon" />
                 <input
                   type="text"
                   placeholder={t("secc-1-placeholder1")}
                   className="input-field"
                 />
-              </div>
+              </div> */}
+               <SearchInput />
             </div>
           </div>
         </div>
 
         {/* SECCCION 2 - Bonjour */}
         <div className="sec-2-home">
-          <div className="secc-1-slider">
+          <div className="secc-2-Video">
             <Image
               src="/img/pabloyfernanda800x700-600x525.jpg"
               alt="Captourist Logo"
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
 
           <div className="secc-2-texto">
-            <h1 className="sec-1-title">{t("sec-2-title")}</h1>
+            <h1 className="sec-2-title">{t("sec-2-title")}</h1>
             {/* <h1>{t("sec-1-title1")}</h1> */}
             <h2 className="sec-2-title1">{t("sec-2-text1")}</h2>
             <h2 className="sec-2-title1">{t("sec-2-text2")}</h2>

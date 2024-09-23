@@ -1,0 +1,37 @@
+/* Asegúrate de aplicar esto a los elementos que contienen la lista desplegable */
+
+.btn-secondary-dropdown-toggle{
+    background-color: transparent;
+    border: none;
+    padding: 0 0 5px 0;
+    margin: 0%;
+}
+
+.dropdown-menu{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    border-radius: 2px;
+    /* border-bottom: #DDDDDD; */
+}
+
+.dropdown-item{
+    margin: 0%;
+    border: 0.5px solid #DDDDDD !important; 
+}
+
+.ropdown-item-11{
+    height: 0px;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .list-dropdown {
+    font-family:  var(--font-secondary);
+    color: #7F7F7F;
+    text-decoration: none;
+    background-color: white;
+    padding-bottom: 10px;
+    height: 20px;
+    list-style: none
+} */

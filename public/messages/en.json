@@ -1,12 +1,18 @@
 {
   "header": {
     "destination": "Destinations",
-    "pricing": "Princing",
-    "howItWork": "How it Works",
+    "pricing": "Pricing",
+    "howItWork": "How It Works",
     "blog": "Blog",
+
+    "en": "EN"
+  },
+
+  "SpecialsDropdown": {
     "specials": "Specials",
-    
-    "en": "ES"
+    "quinceaneras": "Fifteen",
+    "propuestas": "Proposals",
+    "bodas": "Weddings"
   },
 
   "home": {
@@ -55,21 +61,54 @@
     "sec-5-step3-text": "Your photos will be delivered within 5 days after the session,  to view, download and share them as you like.",
     "sec-5-step4-title": "Download and enjoy!",
     "sec-5-step4-text": "Our editors will enhance your photos that will be delivered within 5 days after the session,  to view, download and share them as you like.",
-  
-  
-  
-    "sec-7-title":"Ready to make your life memorable?",
-    "sec-7-text1":"Start bookomg your photo shoot",
-    "sec-7-text-btn1":"book Now",
 
-    "sec-8-title":"Take a peek behind the scenes!",
-    "sec-8-text-btn1":"View profile",
+    "sec-7-title": "Ready to make your life memorable?",
+    "sec-7-text1": "Start bookomg your photo shoot",
+    "sec-7-text-btn1": "book Now",
+
+    "sec-8-title": "Take a peek behind the scenes!",
+    "sec-8-text-btn1": "View profile",
 
     "sec-9-title": "Testimonies",
 
-     "sec-10-title":"Our Trusted Partners"
+    "sec-10-title": "Our Trusted Partners"
   },
- 
+
+  "destination": {
+    "title": "DESTINATIONS",
+    "header": "Hire A Professional Photographer For Your Trip",
+    "description": "Select Your Destination And Choose Your Travel Photographer.",
+    "text1": "Captourist is a new way to travel with a travel photographer by your side. We connect you with professional photographers from around the world. They will show you hidden gems and amazing places in the city where they live. Our professional photographers will capture your magical moments on that special trip.",
+    "text2": "Have fun while our local photographer captures natural photos of the best moments of your journey. Choose one of our destinations and cherish those little moments that make the travel experience unique.",
+    "title2": "Can't find your city?",
+    "text3": "Request a destination and we will find a professional photographer for you.",
+    "requestDestination": "Request your destination",
+   
+      "verona": "Verona",
+      "singapore": "Singapore",
+      "seoul": "Seoul",
+      "hongkong": "Hong Kong",
+      "johannesburg": "Johannesburg",
+      "london": "London",
+      "florence": "Florence",
+      "valencia": "Valencia",
+      "biarritz": "Biarritz",
+      "saigon": "Saigon",
+      "marrakech": "Marrakech",
+      "rome": "Rome",
+      "istanbul": "Istanbul",
+      "losangeles": "Los Angeles",
+      "buenosaires": "Buenos Aires",
+      "playadelcarmen": "Playa del Carmen",
+      "mauritius": "Mauritius",
+      "barcelona": "Barcelona",
+      "madrid": "Madrid",
+      "milan": "Milan",
+      "paris": "Paris",
+      "venice": "Venice"
+    
+  },
+
   "footer": {
     "CaptureMemories": "Capture Memories",
     "CapMemoriesLink1": "Vacation Packages",

@@ -4,9 +4,49 @@
     "pricing": "Precios",
     "howItWork": "Cómo Funciona",
     "blog": "Blog",
+    "specials": "Specials",
+    "en": "ES"
+  },
+
+  "SpecialsDropdown": {
     "specials": "Especiales",
-    
-    "en": "En"
+    "quinceaneras": "Quinceañeras",
+    "propuestas": "Propuestas",
+    "bodas": "Bodas"
+  },
+
+  "destination": {
+    "title": "DESTINOS",
+    "header": "Contrata Un Fotógrafo Profesional Para Tu Viaje",
+    "description": "Selecciona Tu Destino Y Elije Tu Fotógrafo De Viaje.",
+    "text1": "Captourist es una nueva forma de viajar de la mano de un fotógrafo de viaje. Te conectamos con fotógrafos profesionales de todo el mundo. Te mostrarán gemas ocultas y lugares increíbles en la ciudad donde viven. Nuestros fotógrafos profesionales capturarán tus momentos mágicos en ese viaje tan especial.",
+    "text2": "Diviértete mientras nuestro fotógrafo local captura fotos naturales de los mejores momentos de tu recorrido. Elije uno de nuestros destinos y atesora esos pequeños instantes que hacen único la experiencia de viajar.",
+    "title2": "¿No encuentras tu ciudad?",
+    "text3": "Solicita un destino y nosotros encontraremos un fotógrafo professional para ti.",
+    "requestDestination": "Solicita tu destino",
+
+    "verona": "Verona",
+    "singapore": "Singapur",
+    "seoul": "Seúl",
+    "hongkong": "Hong Kong",
+    "johannesburg": "Johannesburgo",
+    "london": "Londres",
+    "florence": "Florencia",
+    "valencia": "Valencia",
+    "biarritz": "Biarritz",
+    "saigon": "Saigón",
+    "marrakech": "Marrakech",
+    "rome": "Roma",
+    "istanbul": "Estambul",
+    "losangeles": "Los Ángeles",
+    "buenosaires": "Buenos Aires",
+    "playadelcarmen": "Playa del Carmen",
+    "mauritius": "Mauricio",
+    "barcelona": "Barcelona",
+    "madrid": "Madrid",
+    "milan": "Milán",
+    "paris": "París",
+    "venice": "Venecia"
   },
 
   "home": {
@@ -55,26 +95,23 @@
     "sec-5-step3-text": "Tu fotógrafo estará listo y coordinaremos todo para que tengas una experiencia sin preocupaciones. ¡Todo listo para capturar tus momentos!",
     "sec-5-step4-title": "Descarga y, ¡disfruta!",
     "sec-5-step4-text": "Nuestros editores mejorarán tus fotos, las cuales se entregarán dentro de los 5 días posteriores a la sesión, para que puedas verlas, descargarlas y compartirlas.",
-  
+
     "sec-6-title": "Sesiones de fotos favoritas",
     "sec-6-subtitle": "Inspírate con las sesiones fotográficas de nuestros clientes y lo que dicen sobre la experiencia.",
-    "sec-6-card1-title":"Quince años en Paris",
-    "sec-6-card1-text":"Paris, Francia | 2024",
+    "sec-6-card1-title": "Quince años en Paris",
+    "sec-6-card1-text": "Paris, Francia | 2024",
     "sec-6-text-btn1": "Ver la Historia",
 
+    "sec-7-title": "¿Estás listo para hacer que tu vida sea memorable?",
+    "sec-7-text1": "Empieza a reservar tu sesión de fotos",
+    "sec-7-text-btn1": "Reserva ahora",
 
-    "sec-7-title":"¿Estás listo para hacer que tu vida sea memorable?",
-    "sec-7-text1":"Empieza a reservar tu sesión de fotos",
-    "sec-7-text-btn1":"Reserva ahora",
-
-    "sec-8-title":"¡Echa un vistazo detrás de escena!",
-    "sec-8-text-btn1":"Ver perfil",
+    "sec-8-title": "¡Echa un vistazo detrás de escena!",
+    "sec-8-text-btn1": "Ver perfil",
 
     "sec-9-title": "Testimonios",
 
-    "sec-10-title":"Socios destacados"
-    
-  
+    "sec-10-title": "Socios destacados"
   },
 
   "footer": {

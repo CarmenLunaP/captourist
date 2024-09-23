@@ -1,6 +1,6 @@
 .container-header{
   margin-top: 20px;
-    padding: 20px;
+ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,9 +10,19 @@
   .logo {
     width: 150px;
     height: auto;
+    margin-left: 5px;
   }
   
-  .nav a {
+  .nav a  {
+    color: var(--text-color-primary); 
+    font-family: var(--font-secondary);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+
+   
+  .nav ul {
     color: var(--text-color-primary); 
     font-family: var(--font-secondary);
     text-decoration: none;
@@ -22,10 +32,21 @@
   
 
   .nav a:last-child {
-    margin-left: 208px;
+    margin-left: 265px;
     text-decoration: underline;
     color: #4C4C4C
   }
   
+  .language-button {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 10px;
+  }
   
+  .language-button:hover {
+    text-decoration: underline;
+  }
   

@@ -29,7 +29,7 @@ const NewsletterForm = () => {
         className="newsletter-input"
         required
       />
-      <button type="submit" className="newsletter-button">
+      <button type="submit" className="newsletter-button-footer">
         Suscribirse
       </button>
     </form>

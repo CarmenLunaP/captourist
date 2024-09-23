@@ -1,8 +1,15 @@
+import Destinations from "../../../components/destinations";
+import "../../../styles/destinations.css";
+import { useTranslations } from "next-intl";
 
+export default function Destination() {
+  const t = useTranslations("destination");
 
-export default function Destination () {
-    return (
-        <h1>Hola destinos</h1>
-    )
-
+  return (
+    <div>
+      <main>
+        <Destinations />
+      </main>
+    </div>
+  );
 }

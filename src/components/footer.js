@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="footter-up">
           <div className="footter-up-left">
           <div className="fotterUp-link-section">
-          <h3> {t("CaptureMemories")}</h3>
+          <h3 className="Footer-up-right-title"> {t("CaptureMemories")}</h3>
             <Link href="/Cap" className="footer-link">{t("CapMemoriesLink1")}</Link>
             <Link href="/Cap" className="footer-link">{t("CapMemoriesLink2")}</Link>
             <Link href="/Cap" className="footer-link">{t("CapMemoriesLink3")}</Link>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div className="fotterUp-link-section">
-            <h3>{t("PopularDestinations")}</h3>
+            <h3 className="Footer-up-right-title">{t("PopularDestinations")}</h3>
             <Link href="/Destinations" className="footer-link">{t("PopularDestLink1")}</Link>
             <Link href="/Destinations" className="footer-link">{t("PopularDestLink2")}</Link>
             <Link href="/Destinations" className="footer-link">{t("PopularDestLink3")}</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           <div className="fotterUp-link-section">
-            <h3>{t("OurCompany")}</h3>
+            <h3 className="Footer-up-right-title">{t("OurCompany")}</h3>
             <Link href="/History" className="footer-link">{t("OurCompanyLink1")}</Link>
             <Link href="/Contact" className="footer-link">{t("OurCompanyLink2")}</Link>
             <Link href="/TravelShop" className="footer-link">{t("OurCompanyLink3")}</Link>
@@ -58,8 +58,8 @@ export default function Footer() {
          
 
             <div className="footter-up-right">
-              <h3>{t("NewsLetter")}</h3>
-              <p>{t("NewsLettertext")}</p>
+              <h3 className="Footer-up-right-title">{t("NewsLetter")}</h3>
+              <p className="foorer-up-left-p">{t("NewsLettertext")}</p>
               <NewsletterForm />
             </div>
           </div>
