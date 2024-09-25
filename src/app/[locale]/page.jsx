@@ -55,7 +55,8 @@ export default function Home() {
             <h1 className="sec-2-title">{t("sec-2-title")}</h1>
             {/* <h1>{t("sec-1-title1")}</h1> */}
             <h2 className="sec-2-title1">{t("sec-2-text1")}</h2>
-            <h2 className="sec-2-title1">{t("sec-2-text2")}</h2>
+            {/* <h2 className="sec-2-title1">{t("sec-2-text2")}</h2> */}
+            
             <button type="submit" className="newsletter-button">
               {t("sec-2-text-btn1")}
             </button>

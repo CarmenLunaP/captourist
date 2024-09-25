@@ -1,4 +1,171 @@
-/* Destinations.module.css */
+.destination-content{
+  padding: 0 100px 0 100px ;
+  margin-bottom: 40px;
+}
+
+.destination-title1{
+  margin-top: 60px;
+  font-family: var(--font-secundary);
+  color: var(--text-color-primary);
+  font-size: 25px;
+  margin-left: 40px;
+}
+.destination-title-cities{
+  margin-top: 40px;
+  font-family: var(--font-secundary);
+  color: var(--text-color-primary);
+  font-size: 25px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.destitation-imput{
+  margin-left: 40px;
+}
+
+
+
+/* Botones de los continentes (sin fondo, borde, como en la imagen) */
+.tabs {
+  font-family: var(--font-secundary);
+  color: var(--text-color-primary);
+  margin-left: 30px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 5px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0 15px;
+  font-size: 16px;
+  color: lightgray; /* Color gris claro para los botones no seleccionados */
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  letter-spacing: 0.3px;
+}
+
+/*Rallita de abajo*/
+.tab-button::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #199eae; /* La rallita se mantiene azul */
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.tab-button:hover::after, .tab-button.active::after {
+  width: 100%;
+}
+
+.tab-button:hover {
+  color: #199eae;; /* Cambia el color del texto al azul en hover */
+}
+
+.tab-button.active {
+  font-weight: bold;
+  color: #199eae;; /* El color del texto del botón activo */
+}
+
+
+/* Estilo general para la cuadrícula de destinos */
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center; /* Centrar los elementos en cada columna */
+}
+
+/* Flexbox para pocos elementos (cuando hay menos de 4 destinos) */
+
+
+.imagen-destination-content {
+  border-radius: 4px;
+  width: 264px;
+  height: auto;
+  overflow: hidden; /* Esto asegura que la imagen no se desborde del contenedor */
+}
+
+
+.destinations-grid.few-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center; /* Centrar los elementos horizontalmente */
+}
+
+
+.city-img {
+  width: 100%; /* Mantén el 100% del contenedor */
+  max-width: 264px; /* Asegura que no se agranden más de lo deseado */
+  height: auto; /* Mantén la proporción correcta */
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+}
+
+.destinations-grid div:hover .city-img {
+  transform: scale(1.1); /* El zoom deseado (10%) */
+}
+
+ .destination-country{
+  text-decoration: none !important; /* Asegura que no haya subrayado */
+  font-family: var(--font-secundary);
+  font-size: 16px;
+  padding: 0%;
+  margin: 8px 0 0 0;
+  color: var(--text-color-primary);
+
+}
+
+.destination-city{
+  text-decoration: none !important; /* Asegura que no haya subrayado */
+  font-family: var(--font-secundary);
+  font-weight: bold; /* Texto de ciudad en negrita */
+  font-size: 18px;
+  padding: 0%;
+  margin: 3px 0 0 0;
+  letter-spacing: 0.8px;
+  color: var(--text-color-primary);
+}
+
+.links-destinations-prices{
+  text-decoration: none !important; 
+}
+
+.price-prices{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.destination-price-from{
+  color: var(--text-color-primary);
+  font-family: var(--font-secundary);
+  font-size: 16px;
+  margin: 8px 0 0 0;
+}
+
+.destination-price {
+  color: #f86e04 !important;; /* Texto de precio en rojo */
+  margin-left: 5px;
+  font-family: var(--font-secundary);
+  font-size: 16px;
+  margin: 8px 0 0 5px;
+  font-weight:600;
+}
+
+
+
+
+/* Destinations.module.css
 .container {
     padding: 20px;
     text-align: center;
@@ -42,4 +209,4 @@
   .requestButton:hover {
     background-color: #C70039;
   }
-  
+   */
