@@ -1,32 +1,67 @@
-.suggestions-list {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    max-width: 600px;
-    max-height: 200px; /* Ajusta según sea necesario */
-    border: 1px solid #265669;
-    border-radius: 5px;
-    background-color: white;
-    z-index: 1000;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    overflow-y: auto; /* Añade el scroll vertical si el contenido desborda */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: sombra para mejor visibilidad */
-  }
 
+
+/* Asegúrate de que el borde no cambie en el estado de focus */
+.input-field {
+  font-weight: normal; /* Mantener el texto sin negrita */
+  border: 1px solid #ccc; /* Color de borde predeterminado */
+}
+
+.input-field:focus {
+  font-weight: normal; /* Asegúrate de que no se ponga en negrita al hacer focus */
+  border: 1px solid #ccc; /* Mantener el borde sin cambio de color */
+  outline: none; /* Elimina el borde azul predeterminado en algunos navegadores */
+}
+
+/* Mantén el color del placeholder sin cambios al hacer clic */
+.input-field:focus::placeholder {
+  color: #ccc;
+}
+
+
+/* Cuando la lista está visible, agregar el borde deseado */
+.input-wrapper.list-open .input-field {
+  /* border: 1px solid #ccc; */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* Estilo para la lista desplegable */
+.input-wrapper.list-open .suggestions-list {
+  /* border: 1px solid #ccc; */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-width: 600px;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: white;
+  z-index: 1000;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+ 
+}
 
 .suggestions-list li {
   padding: 10px;
   cursor: pointer;
 }
-/* 
+
 .suggestions-list li:hover {
   background-color: #f0f0f0;
-} */
+}
 
-/*---Input---*/
+/* Estilos para el input */
 .input-wrapper {
   position: relative;
   display: flex;
@@ -37,26 +72,23 @@
 .input-icon {
   position: absolute;
   padding: 15px 0px 0px 0px;
-  /* padding-right: 25px; */
   left: 10px;
   font-size: 35px;
-  color: #265669; 
+  color: #265669;
 }
 
 .input-field {
   width: 100%;
   max-width: 600px;
-  height: 32px;
-  padding: 0px 15px 8px 50px; 
+  height: 45px;
+  padding: 0px 15px 8px 50px;
   margin-top: 20px;
-  border: 1px solid #265669;
-  border-radius: 5px;
- 
+  border: 0.5px solid #7F7F7F;
+  border-radius: 4px;
 }
 
 .input-field::placeholder {
   font-family: var(--font-secondary);
   color: #7F7F7F;
   font-size: 14px;
-
 }

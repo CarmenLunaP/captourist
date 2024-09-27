@@ -1,3 +1,87 @@
+.container-header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-secondary);
+}
+
+/* Estilos del logo */
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left: 5px;
+}
+
+/* Estilos del menú de navegación */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  color: var(--text-color-primary); 
+  font-family: var(--font-secondary);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.language-button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.language-button:hover {
+  text-decoration: underline;
+}
+
+/* Estilos del botón hamburguesa */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+/* Responsive para pantallas más pequeñas (móvil) */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Oculta el menú por defecto en móviles */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  /* Mostrar el menú si está abierto */
+  .nav.open {
+    display: flex;
+  }
+
+  .nav a {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .hamburger {
+    display: block; /* Muestra el botón hamburguesa en móviles */
+  }
+}
+
+
+/* 
+
 .container-header{
   margin-top: 20px;
  
@@ -49,4 +133,4 @@
   .language-button:hover {
     text-decoration: underline;
   }
-  
+   */

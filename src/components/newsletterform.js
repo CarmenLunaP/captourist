@@ -1,9 +1,12 @@
 "use client";
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
+
 
 const NewsletterForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const t = useTranslations("newsletterform");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,7 +18,7 @@ const NewsletterForm = () => {
     <form onSubmit={handleSubmit} className="newsletter-form">
       <input
         type="text"
-        placeholder="Escribe tu nombre"
+        placeholder={t("placeholderName")}
         value={name}
         onChange={(e) => setName(e.target.value)}
         className="newsletter-input"
@@ -23,14 +26,14 @@ const NewsletterForm = () => {
       />
       <input
         type="email"
-        placeholder="Escribe tu correo"
+        placeholder={t("placeholderMail")}
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         className="newsletter-input"
         required
       />
       <button type="submit" className="newsletter-button-footer">
-        Suscribirse
+      {t("BtnText")}
       </button>
     </form>
   );

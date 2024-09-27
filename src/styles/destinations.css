@@ -163,6 +163,24 @@
 }
 
 
+.btn-destination-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-destination{
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #A2CCD8;
+  color: #A2CCD8;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .3px;
+  line-height: 20px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
 
 
 /* Destinations.module.css

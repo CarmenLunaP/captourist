@@ -7,18 +7,18 @@ import "../../styles/home.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FiMapPin } from "react-icons/fi";
 import SliderHome from "@/components/slider-home";
-import SearchInput from "@/components/seachinput"
+import SearchInput from "@/components/seachinput";
 
 export default function Home() {
   const t = useTranslations("home");
 
   return (
     <div>
-      <main>
+      <main className="container">
         {/* SECCCION 1 */}
         <div className="sec-1-home">
           <div className="secc-1-slider">
-          <SliderHome />
+            <SliderHome />
           </div>
 
           <div className="secc-1-texto">
@@ -35,7 +35,7 @@ export default function Home() {
                   className="input-field"
                 />
               </div> */}
-               <SearchInput />
+              <SearchInput />
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
             {/* <h1>{t("sec-1-title1")}</h1> */}
             <h2 className="sec-2-title1">{t("sec-2-text1")}</h2>
             {/* <h2 className="sec-2-title1">{t("sec-2-text2")}</h2> */}
-            
+
             <button type="submit" className="newsletter-button">
               {t("sec-2-text-btn1")}
             </button>
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="sec-3-cards">
             <div className="card">
               <Image
-                src="/img/homepagemoment16-600x374.png"
+                src="/img/viajes.jpg"
                 alt="Viajes"
                 width={300}
                 height={200}
@@ -85,7 +85,7 @@ export default function Home() {
 
             <div className="card">
               <Image
-                src="/img/homepagemoment16-600x374.png"
+                src="/img/tu-ciudad.jpg"
                 alt="Tu Ciudad"
                 width={300}
                 height={200}
@@ -99,7 +99,7 @@ export default function Home() {
 
             <div className="card">
               <Image
-                src="/img/homepagemoment16-600x374.png"
+                src="/img/retratos.jpg"
                 alt="Retratos"
                 width={300}
                 height={200}
@@ -113,7 +113,7 @@ export default function Home() {
 
             <div className="card">
               <Image
-                src="/img/homepagemoment16-600x374.png"
+                src="/img/bodas.jpg"
                 alt="Boda"
                 width={300}
                 height={200}
@@ -248,7 +248,7 @@ export default function Home() {
         <div className="sec-7-home">
           <div className="sec-7-content">
             <div className="sec-7-guarantee">
-              <h1 className="sec-1-title">{t("sec-7-title")}</h1>
+              <h1 className="sec-7-title">{t("sec-7-title")}</h1>
               <p className="sec-7-text">{t("sec-7-text1")}</p>
               <button className="sec-7-button"> {t("sec-7-text-btn1")}</button>
             </div>
@@ -267,27 +267,32 @@ export default function Home() {
         {/* SECCCION 8 - Instagram */}
 
         <div className="sec-8-home">
+        <h1 className="sec-8-title">{t("sec-8-title")}</h1>
           <div className="sec-8-content">
-            <h1 className="sec-6-title">{t("sec-8-title")}</h1>
-            <p className="sec-1-title">¡Visita nuestro Instagram!</p>
-
-
+          
             <div className="instagram">
               <div className="sec-8-instagram-profile">
-                <a
+                <img
                   href="https://www.instagram.com/hola.captourist/"
-                  target="_blank"
-                  className="sec-8-instagram-link"
-                >
-                  <img
-                    src="/img/captouris-instagram.jpg"
-                    alt="Viajes"
-                    width={80}
-                    height={80}
-                    className="sec-8-instagram-icon"
-                  />
-                  Captourist
-                </a>
+                  src="/img/captouris-instagram.jpg"
+                  alt="Viajes"
+                  width={80}
+                  height={70}
+                  className="sec-8-instagram-icon"
+                />
+                <div className="sec-8-captourist">
+                  <a
+                    href="https://www.instagram.com/hola.captourist/"
+                    target="_blank"
+                    className="sec-8-instagram-link"
+                  >
+                    Captourist
+                  </a>
+                  <a className="sec-8-instagram-audio"
+                  target="_blank">
+                    Audio Original
+                    </a>
+                </div>
                 <button className="sec-8-button">
                   {" "}
                   {t("sec-8-text-btn1")}
@@ -303,48 +308,136 @@ export default function Home() {
                 />
               </div>
             </div>
+            
+            <div className="instagram">
+              <div className="sec-8-instagram-profile">
+                <img
+                  href="https://www.instagram.com/hola.captourist/"
+                  src="/img/captouris-instagram.jpg"
+                  alt="Viajes"
+                  width={80}
+                  height={70}
+                  className="sec-8-instagram-icon"
+                />
+                <div className="sec-8-captourist">
+                  <a
+                    href="https://www.instagram.com/hola.captourist/"
+                    target="_blank"
+                    className="sec-8-instagram-link"
+                  >
+                    Captourist
+                  </a>
+                  <a className="sec-8-instagram-audio"
+                  target="_blank">
+                    Audio Original
+                    </a>
+                </div>
+                <button className="sec-8-button">
+                  {" "}
+                  {t("sec-8-text-btn1")}
+                </button>
+              </div>
+              <div className="instagram-post">
+                <img
+                  src="/img/sesion-trocadero-1024x655.jpg"
+                  alt="Viajes"
+                  width={309}
+                  height={549}
+                  className="sec-8-instagram-icon"
+                />
+              </div>
+            </div>
+
+            <div className="instagram">
+              <div className="sec-8-instagram-profile">
+                <img
+                  href="https://www.instagram.com/hola.captourist/"
+                  src="/img/captouris-instagram.jpg"
+                  alt="Viajes"
+                  width={80}
+                  height={70}
+                  className="sec-8-instagram-icon"
+                />
+                <div className="sec-8-captourist">
+                  <a
+                    href="https://www.instagram.com/hola.captourist/"
+                    target="_blank"
+                    className="sec-8-instagram-link"
+                  >
+                    Captourist
+                  </a>
+                  <a className="sec-8-instagram-audio"
+                  target="_blank">
+                    Audio Original
+                    </a>
+                </div>
+                <button className="sec-8-button"
+                >
+                  {" "}
+                  {t("sec-8-text-btn1")}
+                </button>
+              </div>
+              <div className="instagram-post">
+                <img
+                  src="/img/sesion-trocadero-1024x655.jpg"
+                  alt="Viajes"
+                  width={309}
+                  height={549}
+                  className="sec-8-instagram-icon"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
 
-      {/* SECCIÓN 9 - Testimonios */}
-<div className="sec-9-home">
-  <div className="sec-9-content">
-    <h1 className="sec-6-title">{t("sec-9-title")}</h1>
-    
-    <div className="testimonies">
-      <div className="testimony-card">
-        <div className="testimony-image">
-          <img src="/img/Venecia-800-600x383.jpg" alt="Testimonio Paris" />
-        </div>
-        
-        <div className="testimony-text">
-          <p className="testimony-quote">
-            Estoy completamente encantada con las fotos de mi viaje a París 2024, y todo gracias al talentoso equipo de Captouris. Desde el primer contacto, su profesionalismo y pasión por capturar momentos mágicos fueron evidentes. ¡Cada foto es una obra de arte que refleja perfectamente la belleza y la emoción de mi viaje!
-          </p>
-          <div className="testimony-rating">
-            <span>⭐⭐⭐⭐⭐</span>
-            
-            <p className="testimony-location"> <FaMapMarkerAlt/> Paris</p>
-            
-          </div>
-          <div className="testimony-person">
-          <p className="testimony-name">Ana Rojas</p>
-          <p className="testimony-year">2024</p>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+        {/* SECCIÓN 9 - Testimonios */}
+        <div className="sec-9-home">
+          <div className="sec-9-content">
+            <h1 className="sec-9-title">{t("sec-9-title")}</h1>
 
+            <div className="testimonies">
+              <div className="testimony-card">
+                <div className="testimony-image">
+                  <img
+                    src="/img/Venecia-800-600x383.jpg"
+                    alt="Testimonio Paris"
+                  />
+                </div>
+
+                <div className="testimony-text">
+                  <p className="testimony-quote">
+                    Estoy completamente encantada con las fotos de mi viaje a
+                    París 2024, y todo gracias al talentoso equipo de Captouris.
+                    Desde el primer contacto, su profesionalismo y pasión por
+                    capturar momentos mágicos fueron evidentes. ¡Cada foto es
+                    una obra de arte que refleja perfectamente la belleza y la
+                    emoción de mi viaje!
+                  </p>
+                  <div className="testimony-rating">
+                    <span>⭐⭐⭐⭐⭐</span>
+
+                    <p className="testimony-location">
+                      {" "}
+                      <FaMapMarkerAlt /> Paris
+                    </p>
+                  </div>
+                  <div className="testimony-person">
+                    <p className="testimony-name">Ana Rojas</p>
+                    <p className="testimony-year">2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* SECCCION 10 - Partners */}
 
         <div className="sec-10-home">
           <div className="sec-10-content">
-            <h1 className="sec-6-title">{t("sec-10-title")}</h1>
-            <p className="sec-1-title">Aqui colocar los logos de los socios</p>
+            <h1 className="sec-10-title">{t("sec-10-title")}</h1>
+            <p className="sec-10-title">Aqui colocar los logos de los socios</p>
           </div>
         </div>
       </main>

@@ -26,12 +26,47 @@
     padding: 0%;
 }
 
-/* .list-dropdown {
-    font-family:  var(--font-secondary);
-    color: #7F7F7F;
-    text-decoration: none;
-    background-color: white;
-    padding-bottom: 10px;
-    height: 20px;
-    list-style: none
-} */
+/* Cambios solo para dispositivos móviles */
+@media (max-width: 768px) {
+    .dropdown {
+      position: relative; /* Asegura que el menú sea relativo al contenedor */
+    }
+
+    .dropdown-menu {
+      background-color: white; /* Fondo blanco para móviles */
+      margin: 0;
+      padding: 0;
+      border: none !important; /* Eliminamos bordes */
+      box-shadow: none; /* Sin sombras en móvil */
+      width: 200px; /* Ajusta el ancho del menú */
+      border-radius: 0; /* Sin bordes redondeados */
+      position: absolute; /* Cambiamos el menú a posición absoluta */
+      top: 0; /* Mantiene la alineación superior */
+      left: 100%; /* El menú aparecerá a la derecha del botón */
+      z-index: 1000; /* Asegura que el menú quede encima de otros elementos */
+      transform: translate3d(80px, 44px, 0px) !important;
+    
+    }
+  
+    .dropdown-item {
+      padding: 15px 20px; /* Ajustamos el padding para mejor clic en móviles */
+      color: #000; /* Color de texto */
+      text-align: left; /* Texto alineado a la izquierda */
+      font-size: 18px; /* Aumentamos el tamaño de la fuente para móviles */
+      background-color: white; /* Fondo blanco sin divisiones */
+      border: none !important; /* Eliminamos divisiones entre los ítems */
+    }
+  
+    .dropdown-item:hover {
+      background-color: #f1f1f1; /* Fondo gris claro en hover */
+    }
+  
+    .btn-secondary-dropdown-toggle {
+      background-color: transparent;
+      border: none;
+      padding: 0 0 5px 0;
+      margin: 0;
+      color: #000; /* Asegura que el texto del botón sea visible */
+      font-size: 16px; /* Ajuste de tamaño */
+    }
+}

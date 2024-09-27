@@ -19,7 +19,7 @@ export default function RootLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="boby">
         <NextIntlClientProvider messages={messages}>
           <Header />
           {children}

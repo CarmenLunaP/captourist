@@ -57,12 +57,14 @@ export default function Footer() {
           </div>
          
 
-            <div className="footter-up-right">
+            
+          </div>
+
+          <div className="footter-up-right">
               <h3 className="Footer-up-right-title">{t("NewsLetter")}</h3>
               <p className="foorer-up-left-p">{t("NewsLettertext")}</p>
               <NewsletterForm />
             </div>
-          </div>
         </div>
 
         {/* Donw Footer */}
