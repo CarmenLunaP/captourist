@@ -236,140 +236,143 @@
     "text3": "Request a destination and we will find a professional photographer for you.",
     "requestDestination": "Request your destination",
     "btntext":"Reserva",
+    "topDestination": "Destinos Top",
 
-    "destinations": {
-      "verona": {
-        "city": "Verona",
-        "country": "Italy",
-        "from": "From",
-        "price": "199€"
-      },
-      "singapore": {
-        "city": "Singapore",
-        "country": "Singapore",
-        "from": "From",
-        "price": "199€"
-      },
-      "seoul": {
-        "city": "Seoul",
-        "country": "South Korea",
-        "from": "From",
-        "price": "199€"
-      },
-      "hongkong": {
-        "city": "Hong Kong",
-        "country": "China",
-        "from": "From",
-        "price": "199€"
-      },
-      "johannesburg": {
-        "city": "Johannesburg",
-        "country": "South Africa",
-        "from": "From",
-        "price": "199€"
-      },
-      "london": {
-        "city": "London",
-        "country": "United Kingdom",
-        "from": "From",
-        "price": "199€"
-      },
-      "florence": {
-        "city": "Florence",
-        "country": "Italy",
-        "from": "From",
-        "price": "199€"
-      },
-      "valencia": {
-        "city": "Valencia",
-        "country": "Spain",
-        "from": "From",
-        "price": "199€"
-      },
-      "biarritz": {
-        "city": "Biarritz",
-        "country": "France",
-        "from": "From",
-        "price": "199€"
-      },
-      "saigon": {
-        "city": "Saigon",
-        "country": "Vietnam",
-        "from": "From",
-        "price": "199€"
-      },
-      "marrakech": {
-        "city": "Marrakech",
-        "country": "Morocco",
-        "from": "From",
-        "price": "199€"
-      },
-      "rome": {
-        "city": "Rome",
-        "country": "Italy",
-        "from": "From",
-        "price": "199€"
-      },
-      "istanbul": {
-        "city": "Istanbul",
-        "country": "Turkey",
-        "from": "From",
-        "price": "199€"
-      },
-      "losangeles": {
-        "city": "Los Angeles",
-        "country": "United States",
-        "from": "From",
-        "price": "199€"
-      },
-      "buenosaires": {
-        "city": "Buenos Aires",
-        "country": "Argentina",
-        "from": "From",
-        "price": "199€"
-      },
-      "playadelcarmen": {
-        "city": "Playa del Carmen",
-        "country": "Mexico",
-        "from": "From",
-        "price": "199€"
-      },
-      "mauritius": {
-        "city": "Mauritius",
-        "country": "Mauritius",
-        "from": "From",
-        "price": "199€"
-      },
-      "barcelona": {
-        "city": "Barcelona",
-        "country": "Spain",
-        "from": "From",
-        "price": "199€"
-      },
-      "madrid": {
-        "city": "Madrid",
-        "country": "Spain",
-        "from": "From",
-        "price": "199€"
-      },
-      "milan": {
-        "city": "Milan",
-        "country": "Italy",
-        "from": "From",
-        "price": "199€"
-      },
-      "paris": {
-        "city": "Paris",
-        "country": "France",
-        "from": "From",
-        "price": "199€"
-      },
-      "venice": {
-        "city": "Venice",
-        "country": "Italy",
-        "from": "From",
-        "price": "199€"
-      }
-    }
+
+   "destinations": {
+  "verona": {
+    "city": "Verona",
+    "country": "Italia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "singapore": {
+    "city": "Singapur",
+    "country": "Singapur",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "seoul": {
+    "city": "Seúl",
+    "country": "Corea del Sur",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "hongkong": {
+    "city": "Hong Kong",
+    "country": "China",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "johannesburg": {
+    "city": "Johannesburgo",
+    "country": "Sudáfrica",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "london": {
+    "city": "Londres",
+    "country": "Reino Unido",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "florence": {
+    "city": "Florencia",
+    "country": "Italia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "valencia": {
+    "city": "Valencia",
+    "country": "España",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "biarritz": {
+    "city": "Biarritz",
+    "country": "Francia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "saigon": {
+    "city": "Saigón",
+    "country": "Vietnam",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "marrakech": {
+    "city": "Marrakech",
+    "country": "Marruecos",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "rome": {
+    "city": "Roma",
+    "country": "Italia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "istanbul": {
+    "city": "Estambul",
+    "country": "Turquía",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "losangeles": {
+    "city": "Los Ángeles",
+    "country": "Estados Unidos",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "buenosaires": {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "playadelcarmen": {
+    "city": "Playa del Carmen",
+    "country": "México",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "mauritius": {
+    "city": "Mauricio",
+    "country": "Mauricio",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "barcelona": {
+    "city": "Barcelona",
+    "country": "España",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "madrid": {
+    "city": "Madrid",
+    "country": "España",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "milan": {
+    "city": "Milán",
+    "country": "Italia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "paris": {
+    "city": "París",
+    "country": "Francia",
+    "from": "Desde",
+    "price": "199€"
+  },
+  "venice": {
+    "city": "Venecia",
+    "country": "Italia",
+    "from": "Desde",
+    "price": "199€"
+  }
+}
+
   }
 }

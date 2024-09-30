@@ -1,0 +1,38 @@
+.carousel-container {
+  position: relative; /* Permite posicionar elementos dentro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 38px;
+  position: relative; /* Asegura que las flechas se posicionen sobre las imágenes */
+}
+
+.carousel-arrow {
+  width: 35px;
+  height: 35px;
+  position: absolute; /* Hace que las flechas estén sobre las imágenes */
+  top: 35%; /* Centra verticalmente las flechas */
+  transform: translateY(-50%); /* Ajusta el posicionamiento para que esté perfectamente centrado */
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  z-index: 1; /* Se asegura de que las flechas estén por encima del contenido */
+  /* padding: 10px; Añade un poco de espacio alrededor de la flecha */
+  cursor: pointer; /* Cambia el cursor cuando se coloca sobre la flecha */
+}
+
+.left-arrow {
+  left: 15px; /* Si deseas que se solapen aún más */
+ 
+}
+
+.right-arrow {
+  right: 15px; /* Lo mismo para la flecha derecha */
+}

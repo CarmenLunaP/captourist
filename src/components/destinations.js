@@ -1,12 +1,12 @@
-
 "use client"; 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import "../styles/destinations.css";
+
 import SearchInput from "@/components/seachinput";
 import "../styles/searchinput.css";
+import TopDestinationsCarousel from "../components/topDestinations"
 
 const destinationsByContinent = {
   Asia: ["singapore", "seoul", "hongkong", "saigon", "istanbul"],
@@ -99,7 +99,8 @@ export default function Destinations() {
       </div>
 
       <div className="carrusel-top-destination">
-        Destinos TOP
+      <h2 className="destination-title1">{t("topDestination")}</h2>
+        <TopDestinationsCarousel/>
       </div>  
 
     </div>
