@@ -1,0 +1,41 @@
+{
+    "pricing": {
+      "pricingPlans": "Pricing Plans",
+      "plans": {
+        "shortStoryteller": {
+          "name": "The Short Storyteller",
+          "duration": "30 Minutes",
+          "price": "$285 USD",
+          "quantity": "15 Photos",
+          "locations": "1 Location",
+          "included": "Digital Files Included"
+        },
+        "subtleChronicler": {
+          "name": "The Subtle Chronicler",
+          "duration": "60 Minutes",
+          "price": "$385 USD",
+          "quantity": "30 Photos",
+          "locations": "1-2 Location",
+          "included": "Digital Files Included"
+        },
+        "classicSouvenir": {
+          "name": "The Classic Souvenir",
+          "duration": "90 Minutes",
+          "price": "$535 USD",
+          "quantity": "15 Photos",
+          "locations": "Miltiple Locations",
+          "included": "Digital Files Included"
+        },
+        "ARompAroundTheCity": {
+            "name": "A Romp Around The City",
+            "duration": "2 Hours",
+            "price": "$650 USD",
+            "quantity": "15 Photos",
+            "locations": "Miltiple Locations",
+            "included": "Digital Files Included"
+          }
+      },
+      "btn-text": "book now"
+    }
+  }
+  

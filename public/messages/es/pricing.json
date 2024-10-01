@@ -1,0 +1,41 @@
+{
+    "pricing": {
+      "pricingPlans": "Planes de Precios",
+      "plans": {
+        "shortStoryteller": {
+          "name": "El Narrador Breve",
+          "duration": "30 Minutos",
+          "price": "$285 USD",
+          "quantity": "15 Fotos",
+          "locations": "1 Ubicación",
+          "included": "Archivos Digitales Incluidos"
+        },
+        "subtleChronicler": {
+          "name": "El Cronista Sutil",
+          "duration": "60 Minutos",
+          "price": "$385 USD",
+          "quantity": "30 Fotos",
+          "locations": "1-2 Ubicaciones",
+          "included": "Archivos Digitales Incluidos"
+        },
+        "classicSouvenir": {
+          "name": "El Recuerdo Clásico",
+          "duration": "90 Minutos",
+          "price": "$535 USD",
+          "quantity": "15 Fotos",
+          "locations": "Múltiples Ubicaciones",
+          "included": "Archivos Digitales Incluidos"
+        },
+        "ARompAroundTheCity": {
+          "name": "Un Paseo por la Ciudad",
+          "duration": "2 Horas",
+          "price": "$650 USD",
+          "quantity": "15 Fotos",
+          "locations": "Múltiples Ubicaciones",
+          "included": "Archivos Digitales Incluidos"
+        }
+      },
+     "btn-text": "Reserva Ahora"
+    }
+  }
+  
