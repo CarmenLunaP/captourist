@@ -1,0 +1,10 @@
+{
+    "header": {
+        "destination": "Destinos",
+        "pricing": "Precios",
+        "howItWork": "Cómo Funciona",
+        "blog": "Blog",
+        "specials": "Specials",
+        "en": "ES"
+      }    
+}

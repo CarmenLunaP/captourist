@@ -1,0 +1,151 @@
+{
+    "destination": {
+        "title": "DESTINATIONS",
+        "title1": "Where will your photoshoot take place?",
+        "text4": "Take photos everywhere in the world",
+        "header": "Hire A Professional Photographer For Your Trip",
+        "description": "Select Your Destination And Choose Your Travel Photographer.",
+        "text1": "Captourist is a new way to travel with a travel photographer by your side. We connect you with professional photographers from around the world. They will show you hidden gems and amazing places in the city where they live. Our professional photographers will capture your magical moments on that special trip.",
+        "text2": "Have fun while our local photographer captures natural photos of the best moments of your journey. Choose one of our destinations and cherish those little moments that make the travel experience unique.",
+        "title2": "Can't find your city?",
+        "text3": "Request a destination and we will find a professional photographer for you.",
+        "requestDestination": "Request your destination",
+        "btntext":"Book now",
+        "topDestination": "Top Destinations",
+    
+        "destinations": {
+          "verona": {
+            "city": "Verona",
+            "country": "Italy",
+            "from": "From",
+            "price": "199€"
+          },
+          "singapore": {
+            "city": "Singapore",
+            "country": "Singapore",
+            "from": "From",
+            "price": "199€"
+          },
+          "seoul": {
+            "city": "Seoul",
+            "country": "South Korea",
+            "from": "From",
+            "price": "199€"
+          },
+          "hongkong": {
+            "city": "Hong Kong",
+            "country": "China",
+            "from": "From",
+            "price": "199€"
+          },
+          "johannesburg": {
+            "city": "Johannesburg",
+            "country": "South Africa",
+            "from": "From",
+            "price": "199€"
+          },
+          "london": {
+            "city": "London",
+            "country": "United Kingdom",
+            "from": "From",
+            "price": "199€"
+          },
+          "florence": {
+            "city": "Florence",
+            "country": "Italy",
+            "from": "From",
+            "price": "199€"
+          },
+          "valencia": {
+            "city": "Valencia",
+            "country": "Spain",
+            "from": "From",
+            "price": "199€"
+          },
+          "biarritz": {
+            "city": "Biarritz",
+            "country": "France",
+            "from": "From",
+            "price": "199€"
+          },
+          "saigon": {
+            "city": "Saigon",
+            "country": "Vietnam",
+            "from": "From",
+            "price": "199€"
+          },
+          "marrakech": {
+            "city": "Marrakech",
+            "country": "Morocco",
+            "from": "From",
+            "price": "199€"
+          },
+          "rome": {
+            "city": "Rome",
+            "country": "Italy",
+            "from": "From",
+            "price": "199€"
+          },
+          "istanbul": {
+            "city": "Istanbul",
+            "country": "Turkey",
+            "from": "From",
+            "price": "199€"
+          },
+          "losangeles": {
+            "city": "Los Angeles",
+            "country": "United States",
+            "from": "From",
+            "price": "199€"
+          },
+          "buenosaires": {
+            "city": "Buenos Aires",
+            "country": "Argentina",
+            "from": "From",
+            "price": "199€"
+          },
+          "playadelcarmen": {
+            "city": "Playa del Carmen",
+            "country": "Mexico",
+            "from": "From",
+            "price": "199€"
+          },
+          "mauritius": {
+            "city": "Mauritius",
+            "country": "Mauritius",
+            "from": "From",
+            "price": "199€"
+          },
+          "barcelona": {
+            "city": "Barcelona",
+            "country": "Spain",
+            "from": "From",
+            "price": "199€"
+          },
+          "madrid": {
+            "city": "Madrid",
+            "country": "Spain",
+            "from": "From",
+            "price": "199€"
+          },
+          "milan": {
+            "city": "Milan",
+            "country": "Italy",
+            "from": "From",
+            "price": "199€"
+          },
+          "paris": {
+            "city": "Paris",
+            "country": "France",
+            "from": "From",
+            "price": "199€"
+          },
+          "venice": {
+            "city": "Venice",
+            "country": "Italy",
+            "from": "From",
+            "price": "199€"
+          }
+        }
+      }
+}

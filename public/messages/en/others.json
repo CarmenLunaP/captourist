@@ -1,0 +1,106 @@
+{  
+  "SpecialsDropdown": {
+    "specials": "Specials",
+    "quinceaneras": "Fifteen",
+    "propuestas": "Proposals",
+    "bodas": "Weddings"
+  },
+ 
+  
+ 
+
+  "destination-imput": {
+    "search_placeholder": "Search for a destination",
+    "other_destination": "Other destination",
+    "destinations": {
+      "verona": {
+        "city": "Verona",
+        "country": "Italy"
+      },
+      "singapore": {
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "seoul": {
+        "city": "Seoul",
+        "country": "South Korea"
+      },
+      "hongkong": {
+        "city": "Hong Kong",
+        "country": "China"
+      },
+      "johannesburg": {
+        "city": "Johannesburg",
+        "country": "South Africa"
+      },
+      "london": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "florence": {
+        "city": "Florence",
+        "country": "Italy"
+      },
+      "valencia": {
+        "city": "Valencia",
+        "country": "Spain"
+      },
+      "biarritz": {
+        "city": "Biarritz",
+        "country": "France"
+      },
+      "saigon": {
+        "city": "Saigon",
+        "country": "Vietnam"
+      },
+      "marrakech": {
+        "city": "Marrakech",
+        "country": "Morocco"
+      },
+      "rome": {
+        "city": "Rome",
+        "country": "Italy"
+      },
+      "istanbul": {
+        "city": "Istanbul",
+        "country": "Turkey"
+      },
+      "losangeles": {
+        "city": "Los Angeles",
+        "country": "United States"
+      },
+      "buenosaires": {
+        "city": "Buenos Aires",
+        "country": "Argentina"
+      },
+      "playadelcarmen": {
+        "city": "Playa del Carmen",
+        "country": "Mexico"
+      },
+      "mauritius": {
+        "city": "Mauritius",
+        "country": "Mauritius"
+      },
+      "barcelona": {
+        "city": "Barcelona",
+        "country": "Spain"
+      },
+      "madrid": {
+        "city": "Madrid",
+        "country": "Spain"
+      },
+      "milan": {
+        "city": "Milan",
+        "country": "Italy"
+      },
+      "paris": {
+        "city": "Paris",
+        "country": "France"
+      },
+      "venice": {
+        "city": "Venice",
+        "country": "Italy"
+      }
+    }
+  } 
+}

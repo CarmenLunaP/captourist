@@ -92,3 +92,28 @@
   color: #7F7F7F;
   font-size: 14px;
 }
+
+
+.country-group {
+  margin-bottom: 10px; /* Espacio entre grupos de países */
+}
+
+.country-group > strong {
+  font-weight: bold; /* Negrita para el país */
+  display: block; /* Asegúrate de que el país esté en una nueva línea */
+}
+
+.country-group ul {
+  padding-left: 20px; /* Sangría para las ciudades */
+  list-style-type: none; /* Sin puntos en la lista */
+}
+
+.suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+

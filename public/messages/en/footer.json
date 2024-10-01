@@ -1,0 +1,50 @@
+{
+    "footer": {
+        "CaptureMemories": "Capture Memories",
+        "CapMemoriesLink1": "Vacation Packages",
+        "CapMemoriesLink2": "Proposal Packages",
+        "CapMemoriesLink3": "Headshot Photographers",
+        "CapMemoriesLink4": "Customer Stories",
+        "CapMemoriesLink5": "Print Photos",
+        "CapMemoriesLink6": "Gift a Shoot",
+        "CapMemoriesLink7": "Redeem a Gift Card",
+        "CapMemoriesLink8": "Refer a Friend",
+        "CapMemoriesLink9": "Blog",
+    
+        "PopularDestinations": "Popular Destinations",
+        "PopularDestLink1": "Verona",
+        "PopularDestLink2": "Singapore",
+        "PopularDestLink3": "Seoul",
+        "PopularDestLink4": "Hong Kong",
+        "PopularDestLink5": "Johannesburg",
+        "PopularDestLink6": "London",
+        "PopularDestLink7": "Florenc",
+    
+        "OurCompany": "Our Company",
+        "OurCompanyLink1": "Our Story",
+        "OurCompanyLink2": "Contact Us",
+        "OurCompanyLink3": "Travel Shop",
+        "OurCompanyLink4": "Press",
+        "OurCompanyLink5": "Become a Photographer",
+        "OurCompanyLink6": "Partner with Us",
+        "OurCompanyLink7": "Careers",
+        "OurCompanyLink8": "Reviews",
+        "OurCompanyLink9": "FAQ",
+    
+        "NewsLetter": "News Letter",
+        "NewsLettertext": "Stay in touch for weekly newsletters, travel tips, and deals.",
+    
+        "copyright": "© Copyright 2024 Captourist Enterprises. All Rights Reserved. All photos are subject to copyright and may not be used without written consent from Captourist.",
+        "PrivacyPolicy": "Privacy Policy",
+        "CancellationPolicy": "Cancellation Policy",
+        "T&C": "Terms and Conditions",
+        "hello": "Hello!",
+        "text1": "Get in Touch With Us"
+      },
+
+      "newsletterform": {
+        "placeholderName": "Enter your name",
+        "placeholderMail": "Enter your email",
+        "BtnText": "Subscribe"
+      }
+}
