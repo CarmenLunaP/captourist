@@ -1,5 +1,7 @@
 {
     "FrequentlyAskedQuestions": {
+        "faqtitle": "Frequently Asked Questions",
+
         "question-1": "How and when will I get my photos after the shoot is done?",
         "answer-1": "We will send you an email with a link to your online gallery within five business days. There will also be a link in that email to leave feedback and tell about your experience, so please be sure to let us know!",
         
@@ -17,5 +19,7 @@
 
         "question-6": "I want to gift this to family/friends, can I book for them?",
         "answer-6": "Due to the personal nature of photography and the sometimes many logistics involved, we cannot book shoots through family/friends. Instead we encourage you to gift as a gift card. This allows them to create an account, organize the shoot themselves, and receive their gallery. They can also confirm the best time for them, preferred location, and the photographer that best matches their itinerary and style. We have also found that this kind of photography is a pretty personal experience, so having it feel like an invited experience they have a say in helps them to feel more comfortable in front of the camera on the day! Keeping it as a gift card also has the advantage that if for some reason it isn’t possible for them on this trip, they have the option to use it on a future trip!"
+    
+        
     }
 }

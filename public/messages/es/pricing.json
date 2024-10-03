@@ -1,41 +1,58 @@
 {
-    "pricing": {
-      "pricingPlans": "Planes de Precios",
-      "plans": {
-        "shortStoryteller": {
-          "name": "El Narrador Breve",
-          "duration": "30 Minutos",
-          "price": "$285 USD",
-          "quantity": "15 Fotos",
-          "locations": "1 Ubicación",
-          "included": "Archivos Digitales Incluidos"
-        },
-        "subtleChronicler": {
-          "name": "El Cronista Sutil",
-          "duration": "60 Minutos",
-          "price": "$385 USD",
-          "quantity": "30 Fotos",
-          "locations": "1-2 Ubicaciones",
-          "included": "Archivos Digitales Incluidos"
-        },
-        "classicSouvenir": {
-          "name": "El Recuerdo Clásico",
-          "duration": "90 Minutos",
-          "price": "$535 USD",
-          "quantity": "15 Fotos",
-          "locations": "Múltiples Ubicaciones",
-          "included": "Archivos Digitales Incluidos"
-        },
-        "ARompAroundTheCity": {
-          "name": "Un Paseo por la Ciudad",
-          "duration": "2 Horas",
-          "price": "$650 USD",
-          "quantity": "15 Fotos",
-          "locations": "Múltiples Ubicaciones",
-          "included": "Archivos Digitales Incluidos"
-        }
+  "pricing": {
+    "pricingPlans": "Planes de Precios",
+    "plans": {
+      "shortStoryteller": {
+        "name": "El Narrador Breve",
+        "duration": "30 Minutos",
+        "price": "$285 USD",
+        "quantity": "15 Fotos",
+        "locations": "1 Ubicación",
+        "included": "Archivos Digitales Incluidos"
       },
-     "btn-text": "Reserva Ahora"
-    }
+      "subtleChronicler": {
+        "name": "El Cronista Sutil",
+        "duration": "60 Minutos",
+        "price": "$385 USD",
+        "quantity": "30 Fotos",
+        "locations": "1-2 Ubicaciones",
+        "included": "Archivos Digitales Incluidos"
+      },
+      "classicSouvenir": {
+        "name": "El Recuerdo Clásico",
+        "duration": "90 Minutos",
+        "price": "$535 USD",
+        "quantity": "15 Fotos",
+        "locations": "Múltiples Ubicaciones",
+        "included": "Archivos Digitales Incluidos"
+      },
+      "ARompAroundTheCity": {
+        "name": "Un Paseo por la Ciudad",
+        "duration": "2 Horas",
+        "price": "$650 USD",
+        "quantity": "15 Fotos",
+        "locations": "Múltiples Ubicaciones",
+        "included": "Archivos Digitales Incluidos"
+      }
+    },
+    "btn-text": "Reserva Ahora",
+
+    "title-2": "¿Buscas reservar múltiples sesiones o ciudades, o un paquete más largo?",
+    "title-3": "Consulta con nuestro equipo de conserjería en",
+    "title-4": "hola@captourist.com",
+
+    "card1-title-left": "¿Buscas un fotógrafo para una propuesta sorpresa?",
+    "card1-text-left": "Por solo $100 más, nuestros expertos conserjes planificarán una sesión de propuesta inolvidable para ti.",
+    "card1-text-left-link": "Más información sobre nuestras sesiones de propuesta",
+
+    "card1-title-right": "¿Buscas un regalo inolvidable?",
+    "card1-text-right": "Las tarjetas de regalo de Captourist son perfectas para regalos de bodas y aniversarios, graduaciones, cumpleaños, fiestas y reuniones.",
+    "card1-text-right-link": "Ver detalles sobre las tarjetas de regalo",
+
+    "text-1": "Aprende más sobre",
+    "text-2": "cómo funciona una sesión de Captourist ",
+    "text-3": "¿Tienes más preguntas?",
+    "text-4": "Encuentra la respuesta a tu pregunta en nuestro",
+    "text-5": "FAQ"
   }
-  
+}

@@ -1,41 +1,58 @@
 {
-    "pricing": {
-      "pricingPlans": "Pricing Plans",
-      "plans": {
-        "shortStoryteller": {
-          "name": "The Short Storyteller",
-          "duration": "30 Minutes",
-          "price": "$285 USD",
-          "quantity": "15 Photos",
-          "locations": "1 Location",
-          "included": "Digital Files Included"
-        },
-        "subtleChronicler": {
-          "name": "The Subtle Chronicler",
-          "duration": "60 Minutes",
-          "price": "$385 USD",
-          "quantity": "30 Photos",
-          "locations": "1-2 Location",
-          "included": "Digital Files Included"
-        },
-        "classicSouvenir": {
-          "name": "The Classic Souvenir",
-          "duration": "90 Minutes",
-          "price": "$535 USD",
-          "quantity": "15 Photos",
-          "locations": "Miltiple Locations",
-          "included": "Digital Files Included"
-        },
-        "ARompAroundTheCity": {
-            "name": "A Romp Around The City",
-            "duration": "2 Hours",
-            "price": "$650 USD",
-            "quantity": "15 Photos",
-            "locations": "Miltiple Locations",
-            "included": "Digital Files Included"
-          }
+  "pricing": {
+    "pricingPlans": "Pricing Plans",
+    "plans": {
+      "shortStoryteller": {
+        "name": "The Short Storyteller",
+        "duration": "30 Minutes",
+        "price": "$285 USD",
+        "quantity": "15 Photos",
+        "locations": "1 Location",
+        "included": "Digital Files Included"
       },
-      "btn-text": "book now"
-    }
+      "subtleChronicler": {
+        "name": "The Subtle Chronicler",
+        "duration": "60 Minutes",
+        "price": "$385 USD",
+        "quantity": "30 Photos",
+        "locations": "1-2 Location",
+        "included": "Digital Files Included"
+      },
+      "classicSouvenir": {
+        "name": "The Classic Souvenir",
+        "duration": "90 Minutes",
+        "price": "$535 USD",
+        "quantity": "15 Photos",
+        "locations": "Miltiple Locations",
+        "included": "Digital Files Included"
+      },
+      "ARompAroundTheCity": {
+        "name": "A Romp Around The City",
+        "duration": "2 Hours",
+        "price": "$650 USD",
+        "quantity": "15 Photos",
+        "locations": "Miltiple Locations",
+        "included": "Digital Files Included"
+      }
+    },
+    "btn-text": "book now",
+
+    "title-2": "Looking to book multiple shoots/cities or a longer package?",
+    "title-3": "Inquire with our concierge team at",
+    "title-4": "hola@captourist.com",
+
+    "card1-title-left": "Looking for a Surprise Proposal Photographer?",
+    "card1-text-left": "For just $100 more, our expert concierges will plan an unforgettable proposal shoot for you.",
+    "card1-text-left-link": "Learn more about our proposal shoots",
+
+    "card1-title-right": "Looking for an unforgettable gift?",
+    "card1-text-right": "Captourist gift cards are perfect for wedding and anniversary gifts, graduations, birthdays, parties and reunions.",
+    "card1-text-right-link": "View details on gift cards",
+
+    "text-1": "Learn more about",
+    "text-2": "how a Captourist shoot works",
+    "text-3": "Have more questions?",
+    "text-4": "Find the A to your Q in our",
+    "text-5": "FAQ"
   }
-  
+}
