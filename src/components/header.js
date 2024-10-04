@@ -25,7 +25,7 @@ export default function Header() {
       <div className="container-header">
         <div className="logo">
           <Link href={`/`}>
-            <Image src="/LOGO-CAPTOURIST-2.png" alt="Captourist Logo" width={150} height={60} />
+            <Image src="/LOGO-CAPTOURIST-2.png" alt="Captourist Logo" width={200} height={80} />
           </Link>
         </div>
         <nav className={`nav ${menuOpen ? 'open' : ''}`}> {/* Añadimos clase 'open' si el menú está abierto */}
@@ -33,7 +33,7 @@ export default function Header() {
           <Link href="/pricing">{t('pricing')}</Link>
           <Link href="/how-it-works">{t('howItWork')}</Link>
           <Link href="/blog">{t('blog')}</Link>
-          <SpecialsDropdown />
+          <SpecialsDropdown className="splecialdropdown"/>
           <Link href={`/${nextLocale}${pathname.replace(`/${currentLocale}`, '')}`}>
             <button className="language-button">
               {currentLocale === 'en' ? 'ES' : 'EN'}

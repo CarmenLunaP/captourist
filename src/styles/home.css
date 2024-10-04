@@ -1,13 +1,13 @@
 /*-----------Seccion 1 -------------------*/
 
 .container {
- 
-  max-width: 1440px;
+ max-width: 1440px;
+ padding: 0% !important;
  
 }
 
 .sec-1-home {
-  padding: 0px 0px 30px 30px;
+  padding: 0px 0px 30px 60px;
   margin: 0%;
   display: flex;
   flex-direction: row-reverse;
@@ -29,15 +29,11 @@
   height: 600px; /* Ajusta la altura según sea necesario */
   overflow: hidden;
 }
-.secc-2-Video img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 
 .secc-1-texto {
   width: 50%;
-  padding-right: 32px;
+  padding-right: 50px;
 }
 
 .sec-1-title {
@@ -45,6 +41,7 @@
   font-family: var(--font-primary);
   color: var(--text-color-primary);
   font-size: 32px;
+  padding-right: 50px;
 }
 
 .sec-1-title1 {
@@ -52,6 +49,7 @@
   font-family: var(--font-secondary);
   color: var(--text-color-secondary);
   font-weight: lighter;
+  padding-right: 50px;
 }
 
 .sec-1-title2 {
@@ -83,6 +81,12 @@
     rgba(232, 245, 247, 0),
     #e8f5f7
   ); /* Estándar */
+}
+
+.secc-2-Video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .sec-2-title {
@@ -167,7 +171,9 @@
 
 .card {
   padding: 5px;
-  width: 302.5px;
+  width: 255px;
+
+
   position: relative;
   text-align: left;
   display: flex;
@@ -289,7 +295,7 @@
 }
 
 .sec-4-image img {
-  margin-top: 94px;
+  margin-top: 105px;
   border-radius: 8px;
   margin-left: 120px;
   position: absolute; /* Permite superponer la imagen */
@@ -430,7 +436,7 @@
   }
 }
 
-/*--------Seccion 6 --------------*/
+/*--------Seccion 6 - Favorite Books--------------*/
 
 .sec-6-home {
   padding: 40px 0 40px 0;
@@ -493,6 +499,7 @@
   font-size: 20px;
   margin-top: 10px;
   padding: 0;
+  margin-left: 10px;
 }
 
 .sec-6-card-subtitle {
@@ -501,18 +508,21 @@
   font-size: 16px;
   margin-top: 0px;
   padding: 0;
+  margin-left: 10px;
 }
 
 .sec-6-button {
   font-family: var(--font-secondary);
   color: var(--text-color-secondary);
   background-color: transparent;
-  border-color: 0.8px #265669;
+  border: 0.5px solid #265669   !important;
+  border-style: solid !important;
   border-radius: 4px;
   width: 358px;
   height: 56px;
   margin-top: 20px;
 }
+
 
 /*-------- Seccion 7 -------*/
 
@@ -564,12 +574,14 @@
   color: var(--text-color-primary);
   font-size: 32px;
   margin-top: 50px;
+  margin-left: 80px;
 }
 
 .sec-7-text{
   font-family: var(--font-secondary);
   color: var(--text-color-primary);
   font-size: 16px;
+  margin-left: 80px;
 }
 
 .sec-7-button {
@@ -579,6 +591,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-left: 80px;
 }
 
 .sec-7-button:hover {
@@ -596,7 +609,7 @@
 .sec-8-content {
  display: flex;
  flex-direction: row;
-  width: 310px;
+  /* width: 370px; */
   height: 609px;
   margin-left: 200px;
   gap: 40px;
@@ -612,7 +625,7 @@
 
 .instagram {
   border: 1px solid #e3e7ed;
-  width: 310px;
+  width: 320px;
   height: 609px;
 }
 
@@ -620,7 +633,7 @@
   display: inline-flex;
   align-items: center;
   text-align: left;
-  margin-top: 10px;
+  
   text-decoration: none;
   color: #000;
   font-size: 18px;
@@ -653,15 +666,17 @@
 
 .sec-8-button {
   font-family: var(--font-secondary);
-  font-size: 16px;
-  width: 120px;
-  height: 40px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-size: 15px;
+  width: 105px;
+  height: 30px;
   background-color: #178dfa;
   color: white;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   cursor: pointer;
-  margin-left: 20px;
+  margin-left: 45px;
 }
 
 .sec-8-button:hover {
@@ -769,7 +784,7 @@
 @media (max-width: 1024px) {
   .container {
     max-width: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
 
   .sec-1-home {
@@ -814,7 +829,7 @@
 /*----------- Responsive para móviles (pantallas menores a 768px) -----------*/
 @media (max-width: 768px) {
   .container {
-    padding: 0 15px;
+    /* padding: 0 15px; */
   }
 
   .sec-1-home {

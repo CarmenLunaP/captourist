@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
+
 import SearchInput from "@/components/seachinput";
 import "../styles/searchinput.css";
 import TopDestinationsCarousel from "../components/topDestinations"

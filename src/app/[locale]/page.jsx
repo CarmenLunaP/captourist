@@ -74,7 +74,7 @@ export default function Home() {
                 src="/img/viajes.jpg"
                 alt="Viajes"
                 width={300}
-                height={200}
+                height={300}
               />
               <h3 className="sec-3-card-title">{t("sec-3-card1-title")}</h3>
               <p className="sec-3-card-subtitle">{t("sec-3-card1-text")}</p>
@@ -88,7 +88,7 @@ export default function Home() {
                 src="/img/tu-ciudad.jpg"
                 alt="Tu Ciudad"
                 width={300}
-                height={200}
+                height={300}
               />
               <h3 className="sec-3-card-title">{t("sec-3-card2-title")}</h3>
               <p className="sec-3-card-subtitle">{t("sec-3-card2-text")}</p>
@@ -102,7 +102,7 @@ export default function Home() {
                 src="/img/retratos.jpg"
                 alt="Retratos"
                 width={300}
-                height={200}
+                height={300}
               />
               <h3 className="sec-3-card-title">{t("sec-3-card3-title")}</h3>
               <p className="sec-3-card-subtitle">{t("sec-3-card3-text")}</p>
@@ -116,7 +116,7 @@ export default function Home() {
                 src="/img/bodas.jpg"
                 alt="Boda"
                 width={300}
-                height={200}
+                height={300}
               />
               <h3 className="sec-3-card-title">{t("sec-3-card4-title")}</h3>
               <p className="sec-3-card-subtitle">{t("sec-3-card4-text")}</p>
@@ -142,8 +142,8 @@ export default function Home() {
               <Image
                 src="/img/pabloyfernanda800x700-600x525.jpg"
                 alt="Photographer"
-                width={561}
-                height={298}
+                width={521}
+                height={267}
               />
             </div>
             <div className="sec-4-guarantee">
@@ -302,9 +302,9 @@ export default function Home() {
                 <img
                   src="/img/sesion-trocadero-1024x655.jpg"
                   alt="Viajes"
-                  width={309}
+                  width={319}
                   height={549}
-                  className="sec-8-instagram-icon"
+                  className="sec-8-instagram-post"
                 />
               </div>
             </div>
@@ -341,9 +341,9 @@ export default function Home() {
                 <img
                   src="/img/sesion-trocadero-1024x655.jpg"
                   alt="Viajes"
-                  width={309}
+                  width={319}
                   height={549}
-                  className="sec-8-instagram-icon"
+                  className="sec-8-instagram-post"
                 />
               </div>
             </div>
@@ -381,9 +381,9 @@ export default function Home() {
                 <img
                   src="/img/sesion-trocadero-1024x655.jpg"
                   alt="Viajes"
-                  width={309}
+                  width={319}
                   height={549}
-                  className="sec-8-instagram-icon"
+                  className="sec-8-instagram-post"
                 />
               </div>
             </div>

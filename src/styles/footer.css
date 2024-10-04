@@ -205,6 +205,7 @@ input::placeholder {
 
   .footter-up{
     flex-direction: column-reverse;
+   padding-bottom: 5px;
   }
   .footter-up-left {
     padding-left: 40px;
@@ -212,10 +213,22 @@ input::placeholder {
     align-items: center;
   }
 
+  .footter-up-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+.newsletter-form {
+  margin: 0%;
+}
   .footer-link {
     margin: 5px 0;
   }
-
+.footter-up-left{
+  padding:0% ;
+}
   .fotterUp-link-section {
     width: 100%;
     text-align: center;
@@ -250,13 +263,14 @@ input::placeholder {
 @media screen and (max-width: 480px) {
   .footter-up-left {
     padding-left: 20px;
+   
   }
 
   .footter-up-right{
     align-items: center;
     text-align: center;
     padding-left: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 
   .Footer-up-right-title{
@@ -278,6 +292,10 @@ input::placeholder {
 
   .fotterUp-link-section {
     width: 100%;
+  }
+
+  .newsletter-form{
+    padding-right: 10px;
   }
 
   .newsletter-input, 

@@ -67,7 +67,7 @@ export default function Footer() {
             </div>
         </div>
 
-        {/* Donw Footer */}
+        {/* Down Footer */}
         <div className="footter-down">
           <div className="logo">
             <Image

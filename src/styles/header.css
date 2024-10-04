@@ -8,9 +8,7 @@
 
 /* Estilos del logo */
 .logo {
-  width: 150px;
-  height: auto;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 /* Estilos del menú de navegación */
@@ -23,9 +21,14 @@
   color: var(--text-color-primary); 
   font-family: var(--font-secondary);
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 30px;
   font-size: 15px;
 }
+
+.btn, .btn-secondary-dropdown-toggle{
+  padding: 0% !important;
+}
+
 
 .language-button {
   background-color: transparent;
@@ -34,6 +37,8 @@
   cursor: pointer;
   font-size: 16px;
   padding: 0 10px;
+  margin-left: 180px;
+  margin-right: 10px;
 }
 
 .language-button:hover {
@@ -52,6 +57,10 @@
 
 /* Responsive para pantallas más pequeñas (móvil) */
 @media (max-width: 768px) {
+  .logo {
+    margin-left: 0px;
+    padding-left: 1px;
+  }
   .nav {
     display: none; /* Oculta el menú por defecto en móviles */
     flex-direction: column;

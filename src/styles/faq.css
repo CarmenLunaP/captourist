@@ -21,12 +21,12 @@
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #fafafa;
     transition: background-color 0.3s;
   }
   
   .faq-card:hover {
-    background-color: #f0f0f0;
+    background-color: white;
   }
   
   .faq-question {
@@ -68,5 +68,61 @@
   }
 
 
+  .container-text-down{
+    background-color: #F7FAFC;
+    width: 100%;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .learn-more{
+    display: flex;
+    gap: 5px;
   
+   
+  }
+
+  .learn-more p {
+   
+    font-family: var(--font-segundary);
+    color: var(--text-color-primary);
+    font-weight: 600;
+  }
+
+  .faq-more{
+    display: flex;
+    gap: 5px;
+  }
+
+  .faq-more p{
+   
+    font-family: var(--font-segundary);
+    color: var(--text-color-primary);
+  }
+
+  .learn-more-link{
+ 
+    font-family: var(--font-segundary);
+    color: var(--text-color-primary);
+    font-weight: 600;
+  }
+
+  .faq-more-link{
+    font-family: var(--font-segundary);
+    color: var(--text-color-primary);
+  }
+
+  /* Ajustes pequeños para pantallas ultra pequeñas (max 480px) */
+@media (max-width: 480px) {
+  .faq-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .faq-title{
+    font-size: 23px;
+  }
+}
   

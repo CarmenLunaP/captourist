@@ -82,8 +82,9 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
-  justify-items: center; /* Centrar los elementos en cada columna */
+  justify-items: center; 
 }
+
 
 /* Flexbox para pocos elementos (cuando hay menos de 4 destinos) */
 
@@ -182,50 +183,76 @@
   cursor: pointer;
 }
 
-
-
-/* Destinations.module.css
-.container {
-    padding: 20px;
-    text-align: center;
+@media (max-width: 1200px) {
+  .destination-content {
+    padding: 0 15px; /* Ajuste del padding en pantallas medianas */
   }
-  
+
+  .tabs {
+    flex-wrap: wrap; /* Permitir que los botones de los continentes hagan wrap en pantallas más pequeñas */
+    justify-content: center;
+  }
+
+  .city-img {
+    width: 100%;
+    height: auto; /* Para que las imágenes sean completamente responsive */
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs {
+    display: flex;
+    flex-direction: column; /* Botones de los continentes en una columna en pantallas pequeñas */
+    gap: 10px;
+    align-items: center;
+  }
+
+  .city-img {
+    width: 100%;
+    height: auto; /* Las imágenes se ajustarán al 100% del ancho de la tarjeta */
+  }
+
   .destinations-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 30px;
+    grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas medianas */
+  }
+
+  .destination-title1 {
+    font-size: 1.5rem; /* Ajuste de tamaño de fuente */
+  }
+}
+
+@media (max-width: 480px) {
+  .body{
+    max-width: 480px;
+    padding-left: 0% !important;
+    margin-left: 0% !important;
   }
   
-  .card {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .tabs {
+    font-size: 14px; /* Tamaño más pequeño en pantallas muy pequeñas */
   }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+
+  .destinations-grid {
+    grid-template-columns: 1fr; /* Una columna en pantallas muy pequeñas */
   }
-  
-  h3 {
-    margin-top: 10px;
-    font-size: 1.5rem;
+
+  .city-img {
+    width: 100%;
+    height: auto;
   }
-  
-  .requestButton {
-    margin-top: 30px;
-    padding: 15px 30px;
-    background-color: #FF5733;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2rem;
+
+  .destination-title1,
+  .destination-title-cities {
+    font-size: 1.2rem; /* Ajuste de títulos para pantallas pequeñas */
   }
-  
-  .requestButton:hover {
-    background-color: #C70039;
+
+  .price-prices h3 {
+    font-size: 1rem; /* Reducir el tamaño de la fuente de los precios */
   }
-   */
+
+  .btn-destination {
+    width: 100%; /* Botón a pantalla completa en móviles */
+    padding: 10px;
+  }
+}
+

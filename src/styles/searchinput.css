@@ -79,7 +79,7 @@
 
 .input-field {
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
   height: 45px;
   padding: 0px 15px 8px 50px;
   margin-top: 20px;
@@ -117,3 +117,24 @@
   background-color: #f0f0f0;
 }
 
+.input-wrapper {
+  max-width: 100%; /* Asegurarse de que ocupe el 100% del contenedor */
+}
+
+@media (max-width: 768px) {
+  .input-field {
+    width: 100%; /* Asegurarse de que el campo de búsqueda sea responsive */
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-field {
+    font-size: 14px; /* Reducir tamaño de fuente en pantallas más pequeñas */
+    padding: 10px;
+  }
+
+  .suggestions-list {
+    max-height: 150px; /* Limitar la altura de las sugerencias en pantallas pequeñas */
+  }
+}

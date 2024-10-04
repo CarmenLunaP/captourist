@@ -36,3 +36,11 @@
 .right-arrow {
   right: 15px; /* Lo mismo para la flecha derecha */
 }
+
+
+
+@media (max-width: 768px) {
+  .top-destinations-carousel {
+    gap: 10px;
+  }
+}

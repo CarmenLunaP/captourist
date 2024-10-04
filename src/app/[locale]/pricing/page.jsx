@@ -17,7 +17,7 @@ export default function Destination() {
 
         <div className="containertext">
           <div>
-            <p className="pricng-title-2">{t("title-2")}</p>
+            <p className="pricing-title-2">{t("title-2")}</p>
           </div>
 
           <div className="containertext-3-4">
