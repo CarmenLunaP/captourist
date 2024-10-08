@@ -11,6 +11,7 @@ import "../styles/footer.css";
 import { useTranslations } from "next-intl";
 import NewsletterForm from "./newsletterform";
 
+
 export default function Footer() {
   const t = useTranslations("footer");
 

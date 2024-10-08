@@ -1,0 +1,99 @@
+.how_it_w-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .how_it_w-left-section {
+    width: 720px; /* 45% of 1600px */
+    height: 100vh;
+    background-image: url('/img/pabloyfernanda800x700-600x525.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-content {
+    max-width: 500px;
+    color: white;
+  }
+  
+  .left-content h1 {
+    font-size: 40px;
+    font-family: var(--font-primary);
+    margin-bottom: 20px;
+  }
+  
+  .left-content p {
+    font-size: 18px;
+    font-family: var(--font-secondary);
+    margin-bottom: 30px;
+  }
+  
+  .book-now-btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #265669;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-now-btn svg {
+    margin-left: 10px;
+  }
+ 
+
+  /* Right section */
+  .how_it_w-right-section {
+    width: 880px; /* 55% of 1600px */
+    height: 100vh;
+     padding: 40px 20px;
+    overflow-y: auto;
+  }
+
+  .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+   width: 600px;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  
+  .step-image {
+    margin-right: 20px;
+  
+    margin-right: 40px;
+  }
+  
+  .step-content h2 {
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  .step-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a596d;
+    margin-bottom: 10px;
+  }
+  
+  .step-content p {
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #696969;
+  }
+  

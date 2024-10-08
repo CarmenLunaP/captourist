@@ -31,7 +31,7 @@ export default function Header() {
         <nav className={`nav ${menuOpen ? 'open' : ''}`}> {/* Añadimos clase 'open' si el menú está abierto */}
           <Link href="/destinations">{t('destination')}</Link>
           <Link href="/pricing">{t('pricing')}</Link>
-          <Link href="/how-it-works">{t('howItWork')}</Link>
+          <Link href="/how_it_works">{t('howItWork')}</Link>
           <Link href="/blog">{t('blog')}</Link>
           <SpecialsDropdown className="splecialdropdown"/>
           <Link href={`/${nextLocale}${pathname.replace(`/${currentLocale}`, '')}`}>
