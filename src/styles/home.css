@@ -122,17 +122,18 @@
 
 .newsletter-button {
   background-color: #2baab2;
+  text-decoration: none !important;
   width: 151px;
   height: 32px;
   font-family: var(--font-secondary);
   color: white;
-  display: flex;
+ 
   align-items: center;
   justify-content: center; /* Opcional: para centrar el texto horizontalmente */
   text-align: center; /* Asegura que el texto esté centrado */
   border: none; /* Asegura que no haya bordes adicionales si es necesario */
   cursor: pointer; /* Cambia el cursor para que parezca clickeable */
-  margin-left: 40%;
+
   margin-top: 20px;
 }
 
@@ -385,6 +386,10 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
+}
+
+.sec-5-title a:hover {
+  text-decoration: underline;
 }
 
 .sec-5-steps {

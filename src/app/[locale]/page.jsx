@@ -5,9 +5,9 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import "../../styles/home.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FiMapPin } from "react-icons/fi";
 import SliderHome from "@/components/slider-home";
 import SearchInput from "@/components/seachinput";
+import Link from "next/link";
 
 export default function Home() {
   const t = useTranslations("home");
@@ -56,10 +56,11 @@ export default function Home() {
             {/* <h1>{t("sec-1-title1")}</h1> */}
             <h2 className="sec-2-title1">{t("sec-2-text1")}</h2>
             {/* <h2 className="sec-2-title1">{t("sec-2-text2")}</h2> */}
-
-            <button type="submit" className="newsletter-button">
-              {t("sec-2-text-btn1")}
-            </button>
+            <Link href="/about_us" passHref>
+              <button type="submit" className="newsletter-button">
+                {t("sec-2-text-btn1")}
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -112,12 +113,7 @@ export default function Home() {
             </div>
 
             <div className="card">
-              <Image
-                src="/img/bodas.jpg"
-                alt="Boda"
-                width={300}
-                height={300}
-              />
+              <Image src="/img/bodas.jpg" alt="Boda" width={300} height={300} />
               <h3 className="sec-3-card-title">{t("sec-3-card4-title")}</h3>
               <p className="sec-3-card-subtitle">{t("sec-3-card4-text")}</p>
               <a href="#" className="sec-3-card-link">
@@ -126,12 +122,17 @@ export default function Home() {
             </div>
           </div>
           <div className="sec-3-btn">
-            <button type="submit" className="secc-3-btn1">
-              {t("sec-3-text-btn1")}
-            </button>
-            <button type="submit" className="secc-3-btn2">
-              {t("sec-3-text-btn2")}
-            </button>
+            <Link href="/pricing" passHref>
+              <button type="submit" className="secc-3-btn1">
+                {t("sec-3-text-btn1")}
+              </button>
+            </Link>
+
+            <Link href="/destinations" passHref>
+              <button type="submit" className="secc-3-btn2">
+                {t("sec-3-text-btn2")}
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -155,7 +156,12 @@ export default function Home() {
               />
               <h1 className="sec-4-title">{t("sec-4-title")}</h1>
               <p className="sec-4-text">{t("sec-4-text1")}</p>
-              <button className="sec-4-button"> {t("sec-4-text-btn1")}</button>
+              <Link href="/photographer-guarantee" passHref>
+                <button className="sec-4-button">
+                  {" "}
+                  {t("sec-4-text-btn1")}
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -166,7 +172,8 @@ export default function Home() {
             <h2>{t("sec-5-title")}</h2>
             <div className="secc-5-text-content">
               <p>{t("sec-5-text1")}</p>
-              <a href="#">{t("sec-5-link")} </a>
+              <Link href="/how_it_works">{t("sec-5-link")}</Link>
+              {/* <a href="#">{t("sec-5-link")} </a> */}
             </div>
           </div>
           <div className="sec-5-steps">
@@ -267,9 +274,8 @@ export default function Home() {
         {/* SECCCION 8 - Instagram */}
 
         <div className="sec-8-home">
-        <h1 className="sec-8-title">{t("sec-8-title")}</h1>
+          <h1 className="sec-8-title">{t("sec-8-title")}</h1>
           <div className="sec-8-content">
-          
             <div className="instagram">
               <div className="sec-8-instagram-profile">
                 <img
@@ -288,91 +294,55 @@ export default function Home() {
                   >
                     Captourist
                   </a>
-                  <a className="sec-8-instagram-audio"
-                  target="_blank">
+                  <a className="sec-8-instagram-audio" target="_blank">
                     Audio Original
-                    </a>
-                </div>
-                <button className="sec-8-button">
-                  {" "}
-                  {t("sec-8-text-btn1")}
-                </button>
-              </div>
-              <div className="instagram-post">
-                <img
-                  src="/img/sesion-trocadero-1024x655.jpg"
-                  alt="Viajes"
-                  width={319}
-                  height={549}
-                  className="sec-8-instagram-post"
-                />
-              </div>
-            </div>
-            
-            <div className="instagram">
-              <div className="sec-8-instagram-profile">
-                <img
-                  href="https://www.instagram.com/hola.captourist/"
-                  src="/img/captouris-instagram.jpg"
-                  alt="Viajes"
-                  width={80}
-                  height={70}
-                  className="sec-8-instagram-icon"
-                />
-                <div className="sec-8-captourist">
-                  <a
-                    href="https://www.instagram.com/hola.captourist/"
-                    target="_blank"
-                    className="sec-8-instagram-link"
-                  >
-                    Captourist
                   </a>
-                  <a className="sec-8-instagram-audio"
-                  target="_blank">
-                    Audio Original
-                    </a>
                 </div>
-                <button className="sec-8-button">
-                  {" "}
-                  {t("sec-8-text-btn1")}
-                </button>
-              </div>
-              <div className="instagram-post">
-                <img
-                  src="/img/sesion-trocadero-1024x655.jpg"
-                  alt="Viajes"
-                  width={319}
-                  height={549}
-                  className="sec-8-instagram-post"
-                />
-              </div>
-            </div>
-
-            <div className="instagram">
-              <div className="sec-8-instagram-profile">
-                <img
+                <a
                   href="https://www.instagram.com/hola.captourist/"
-                  src="/img/captouris-instagram.jpg"
-                  alt="Viajes"
-                  width={80}
-                  height={70}
-                  className="sec-8-instagram-icon"
-                />
-                <div className="sec-8-captourist">
-                  <a
-                    href="https://www.instagram.com/hola.captourist/"
-                    target="_blank"
-                    className="sec-8-instagram-link"
-                  >
-                    Captourist
-                  </a>
-                  <a className="sec-8-instagram-audio"
-                  target="_blank">
-                    Audio Original
-                    </a>
-                </div>
-                <button className="sec-8-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  <button className="sec-8-button">
+                    {t("sec-8-text-btn1")}
+                  </button>
+                </a>
+
+              </div>
+              <div className="instagram-post">
+                <img
+                  src="/img/sesion-trocadero-1024x655.jpg"
+                  alt="Viajes"
+                  width={319}
+                  height={549}
+                  className="sec-8-instagram-post"
+                />
+              </div>
+            </div>
+
+            <div className="instagram">
+              <div className="sec-8-instagram-profile">
+                <img
+                  href="https://www.instagram.com/hola.captourist/"
+                  src="/img/captouris-instagram.jpg"
+                  alt="Viajes"
+                  width={80}
+                  height={70}
+                  className="sec-8-instagram-icon"
+                />
+                <div className="sec-8-captourist">
+                  <a
+                    href="https://www.instagram.com/hola.captourist/"
+                    target="_blank"
+                    className="sec-8-instagram-link"
+                  >
+                    Captourist
+                  </a>
+                  <a className="sec-8-instagram-audio" target="_blank">
+                    Audio Original
+                  </a>
+                </div>
+                <button className="sec-8-button">
                   {" "}
                   {t("sec-8-text-btn1")}
                 </button>
@@ -388,6 +358,43 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="instagram">
+              <div className="sec-8-instagram-profile">
+                <img
+                  href="https://www.instagram.com/hola.captourist/"
+                  src="/img/captouris-instagram.jpg"
+                  alt="Viajes"
+                  width={80}
+                  height={70}
+                  className="sec-8-instagram-icon"
+                />
+                <div className="sec-8-captourist">
+                  <a
+                    href="https://www.instagram.com/hola.captourist/"
+                    target="_blank"
+                    className="sec-8-instagram-link"
+                  >
+                    Captourist
+                  </a>
+                  <a className="sec-8-instagram-audio" target="_blank">
+                    Audio Original
+                  </a>
+                </div>
+                <button className="sec-8-button">
+                  {" "}
+                  {t("sec-8-text-btn1")}
+                </button>
+              </div>
+              <div className="instagram-post">
+                <img
+                  src="/img/sesion-trocadero-1024x655.jpg"
+                  alt="Viajes"
+                  width={319}
+                  height={549}
+                  className="sec-8-instagram-post"
+                />
+              </div>
+            </div>
           </div>
         </div>
 

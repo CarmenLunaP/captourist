@@ -9,13 +9,13 @@
   .how_it_w-left-section {
     width: 720px; /* 45% of 1600px */
     height: 100vh;
-    background-image: url('/img/pabloyfernanda800x700-600x525.jpg');
+    background-image: url('/img/BOOK-A-PROFESSIONAL-PHOTOGRAPHER-WITH-CAPTOURIST.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-left: 20px;
+    padding-left: 35px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
   
@@ -25,26 +25,36 @@
   }
   
   .left-content h1 {
-    font-size: 40px;
-    font-family: var(--font-primary);
-    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-secondary);
+    letter-spacing: -1.5px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…w9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
+    background-image: linear-gradient(45deg, #199FAE 10%, #EDBA2F 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
   }
   
   .left-content p {
     font-size: 18px;
     font-family: var(--font-secondary);
     margin-bottom: 30px;
+    color: black;
   }
   
-  .book-now-btn {
+  .book-now-btn{
     padding: 10px 20px;
-    background-color: #fff;
-    color: #265669;
+    font-family: var(--font-secondary);
+    background-color: #2baab2;
+    color: white;
     border: none;
     font-size: 16px;
     cursor: pointer;
-    display: flex;
+    width: 150px;
+    height: 46px;
     align-items: center;
+    text-decoration: none !important;
   }
   
   .book-now-btn svg {
@@ -72,6 +82,11 @@
     flex-direction: column;
     padding-left: 40px;
   }
+
+  .step-img-container{
+    width: 250px;
+    margin-right: 35px;
+  }
   
   .step-image {
     margin-right: 20px;
@@ -80,11 +95,15 @@
   }
   
   .step-content h2 {
-    font-size: 42px;
-    font-weight: 500;
+    font-family: var(--font-primary);
+    color: #e4e4e4;;
+    font-size: 62px;
+    /* font-weight: 500; */
   }
   
   .step-content h3 {
+  
+    font-family: var(--font-secondary);
     font-size: 18px;
     font-weight: bold;
     color: #3a596d;
@@ -92,6 +111,7 @@
   }
   
   .step-content p {
+    font-family: var(--font-secondary);
     font-size: 14px;
     letter-spacing: 0.6px;
     color: #696969;
