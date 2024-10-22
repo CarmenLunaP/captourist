@@ -39,9 +39,9 @@ const SpecialsDropdown = () => {
       </a>
 
       <div className={`dropdown-menu${isOpen ? ' show' : ''}`} aria-labelledby="dropdownMenuLink">
-        <a className="dropdown-item" href="/propuestas">{t('propuestas')}</a>
-        <a className="dropdown-item" href="/quinceaneras">{t('quinceaneras')}</a>
-        <a className="dropdown-item" href="/bodas">{t('bodas')}</a>
+        <a className="dropdown-item" href="/specials/proposals">{t('propuestas')}</a>
+        <a className="dropdown-item" href="/specials/fifteen">{t('quinceaneras')}</a>
+        <a className="dropdown-item" href="/specials/weddings">{t('bodas')}</a>
         <a className="dropdown-item-11"></a> 
       </div>
     </div>

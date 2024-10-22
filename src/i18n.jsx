@@ -19,6 +19,16 @@ export default getRequestConfig(async ({ locale }) => {
     ...(await import(`../public/messages/${locale}/questions.json`)).default,
     ...(await import(`../public/messages/${locale}/blog.json`)).default,
     ...(await import(`../public/messages/${locale}/how_it_works.json`)).default,
+    ...(await import(`../public/messages/${locale}/proposals`)).default,
+    ...(await import(`../public/messages/${locale}/fifteen`)).default,
+    ...(await import(`../public/messages/${locale}/about_us.json`)).default,
+
+    ...(await import(`../public/messages/${locale}/wedding`)).default,
+    ...(await import(`../public/messages/${locale}/book_now`)).default,
+
+
+    
+    
   };
  
   return {

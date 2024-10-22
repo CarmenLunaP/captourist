@@ -4,6 +4,7 @@ import "../styles/pricing.css";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { FiMapPin } from "react-icons/fi";
 import { SlPicture } from "react-icons/sl";
+import Link from "next/link";
 
 const Pricing = () => {
   const t = useTranslations("pricing");
@@ -81,7 +82,9 @@ const Pricing = () => {
               </p>
             </div>
           </div>
+          <Link href="/book_now" passHref>
           <button className="pricing-btn">{t("btn-text")}</button>
+          </Link>
           </div>
         ))}
       </div>

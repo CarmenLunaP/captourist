@@ -43,7 +43,7 @@ export default function Destination() {
                 <h3 className="card-title">{t("card1-title-left")}</h3>
                 <p className="card-subtitle-pricing">{t("card1-text-left")}</p>
                 </div>
-                <Link href="/faq" className="card-link-left">
+                <Link href="/book_now" className="card-link-left">
                   {t("card1-text-left-link")}
                 </Link>
               {/* </div> */}
@@ -59,7 +59,7 @@ export default function Destination() {
               <div className="cards-text">
                 <h3 className="card-title">{t("card1-title-right")}</h3>
                 <p className="card-subtitle-pricing">{t("card1-text-right")}</p>
-                <Link href="/faq" className="card-link-right">
+                <Link href="/gif_card" className="card-link-right">
                   {t("card1-text-right-link")}
                 </Link>
               </div>

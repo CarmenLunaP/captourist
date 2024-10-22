@@ -15,7 +15,7 @@ export default function How_it_works() {
         <div className="left-content">
           <h1>{t("title")}</h1>
           <p>{t("description")}</p>
-          <Link href="/destinations" passHref>
+          <Link href="/book_now" className="card-link-left">
             <button className="book-now-btn">
               {t("book-now")} 
             </button>

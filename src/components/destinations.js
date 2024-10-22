@@ -96,7 +96,9 @@ export default function Destinations() {
         ))}
       </div>
       <div className="btn-destination-content"> 
+      <Link href="/book_now" passHref>
       <button className="btn-destination">{t("btntext")}</button>
+      </Link>
       </div>
 
       <div className="carrusel-top-destination">

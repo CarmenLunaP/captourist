@@ -1,0 +1,38 @@
+{
+  "all_posts": {
+    "title": "All Posts",
+    "description": "Check out our latest posts.",
+    "posts": [
+      {
+        "id": 1,
+        "image": "/img/Destinations.jpg",
+        "title": "¿QUÉ EMPACAR PARA PARÍS EN VERANO?",
+      
+            "text": "París es encantadora en cualquier fecha del año, pero el verano en París es la temporada ideal para visitar la ciudad. Muchos parisinos salen de vacaciones y, por lo general, la ciudad está menos saturada y más relajada. Las temperaturas son templadas, así que puedes aprovechar al máximo los parques, las terrazas y los espacios al aire libre, la alegría de vivir se esparce junto con el sol en la ciudad de la luz. Además, se organizan muchos eventos y fiestas entre junio y septiembre. ",
+       
+        "content": [
+          {
+            "subtitle": "Clima de París en el verano",
+            "paragraphs": [
+              {
+                "text": "La primer recomendación que te voy a dar es que revises la aplicación del clima antes de viajar y hagas las modificaciones necesarias en tu armario. Prepárate para una amplia variedad de temperaturas cuando viajes en verano. Las olas de calor son muy comunes, y no todos los establecimientos cuentan con aire acondicionado. Te aconsejo que verifiques con el alojamiento al que llegarás para asegurarte que tienen aire acondicionado o ventiladores para mantenerte fresco en las noches.",
+                "image": "/img/retratos.jpg"
+              },
+              {
+                "text": "El pronostico de la lluvia puede cambiar diariamente en Paris. Anticipa al menos un día de lluvia durante tu viaje, te recomiendo llevar una gabardina, chubasquero o paraguas para los días de lluvia. Si tienes suerte, puede que no tengas ningún día con lluvia, pero lo mejor es estar preparado. "
+              }
+            ]
+          },
+          {
+            "subtitle": "Horas de luz en París",
+            "paragraphs": [
+              {
+                "text": "Si vienes desde México, es posible que no esperes una puesta de sol tan tardía. En junio, el amanecer es alrededor de las 5:45 am y el atardecer es aproximadamente a las 9:45 pm. Tendrás 16 horas de luz solar en París, ¡los días son muy largos! Esto es maravilloso para aprovechar la ciudad al máximo. Prepárate para los días calurosos y soleados, así que no olvides llevar tu sombrero para el sol, un protector solar y una botella de agua para rellenar." 
+          }
+        ]
+      }
+    ]
+  }
+]
+}
+}

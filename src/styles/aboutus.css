@@ -1,0 +1,47 @@
+.about-us-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2, h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .company-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .story-header, .think-header, .do-header, .work-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .story-header span, .think-header span, .do-header span, .work-header span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

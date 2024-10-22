@@ -217,7 +217,10 @@ export default function Home() {
                 <h3 className="sec-6-card-title">{t("sec-6-card1-title")}</h3>
                 <p className="sec-6-card-subtitle">{t("sec-6-card1-text")}</p>
               </div>
+              
+      
               <button className="sec-6-button"> {t("sec-6-text-btn1")}</button>
+        
             </div>
 
             <div className="card-6">
@@ -257,7 +260,9 @@ export default function Home() {
             <div className="sec-7-guarantee">
               <h1 className="sec-7-title">{t("sec-7-title")}</h1>
               <p className="sec-7-text">{t("sec-7-text1")}</p>
+              <Link href="/book_now" passHref>
               <button className="sec-7-button"> {t("sec-7-text-btn1")}</button>
+              </Link>
             </div>
 
             <div className="sec-7-image">

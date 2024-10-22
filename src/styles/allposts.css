@@ -1,0 +1,9 @@
+.paragraph-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    margin-bottom: 1em; /* Espaciado entre párrafos */
+}
+
+.inline-image {
+    margin-left: 10px; /* Espacio entre el párrafo y la imagen */
+}

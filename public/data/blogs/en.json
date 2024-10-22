@@ -1,0 +1,346 @@
+{
+  "all_posts": {
+    "title": "All Posts",
+    "description": "Check out our latest posts.",
+  
+    "posts": [
+      {
+        "id": 1,
+        "image": "/img/img-post1.png",
+        "fecha":"15 de mayo 2024",
+        "title": "¿QUÉ EMPACAR PARA PARÍS EN VERANO?",
+        "paragraphs": [
+            {
+            "text": "París es encantadora en cualquier fecha del año, pero el verano en París es la temporada ideal para visitar la ciudad. Muchos parisinos salen de vacaciones y, por lo general, la ciudad está menos saturada y más relajada. Las temperaturas son templadas, así que puedes aprovechar al máximo los parques, las terrazas y los espacios al aire libre, la alegría de vivir se esparce junto con el sol en la ciudad de la luz. Además, se organizan muchos eventos y fiestas entre junio y septiembre. "
+            },
+            {
+              "text": "El comienzo de los meses de verano en París puede ser más fresco, y los días son mas cálidos a finales de junio y principios de julio. Es una muy buena ida empacar capas de ropa al planificar tu visita a París en verano, ya que el clima puede ser una moneda al aire.  "
+            }
+          ],
+        "content": [
+          {
+            "subtitle": "¿QUÉ EMPACAR PARA PARÍS EN VERANO?",
+            "paragraphs": [
+              {
+                "text": "Puedes utilizar nuestra lista de equipaje para París y sugerencias que te ayuden a empacar tu maleta para París en verano. Te recomiendo mezclar y combinar el estilo parisino con el tuyo para hacerlo único. Sabemos que existe el famoso estereotipo de “chica francesa look”, el cual está en constante evolución, y estoy segura que te darás cuenta mientras exploras la ciudad. "
+           
+              }
+            ]
+          },
+
+          {
+            "subtitle": "Clima de París en el verano",
+            "paragraphs": [
+              {
+                "text": "La primer recomendación que te voy a dar es que revises la aplicación del clima antes de viajar y hagas las modificaciones necesarias en tu armario.",
+                "image": "/img/img-post1-A.png"
+              },
+              {
+                "text": "El pronostico de la lluvia puede cambiar diariamente en Paris. Anticipa al menos un día de lluvia durante tu viaje."
+              }
+            ]
+          },
+          {
+            "subtitle": "Horas de luz en París",
+            "paragraphs": [
+              {
+                "text": "En junio, el amanecer es alrededor de las 5:45 am y el atardecer es aproximadamente a las 9:45 pm."
+              }
+            ]
+          },
+          {
+            "subtitle": "Zapatos cómodos para París en verano",
+            "paragraphs": [
+              {
+                "text": "Llevar zapatos cómodos para París no es un negociable. Seguramente estás pensando en qué zapatillas llevar en tu maleta para los días largos en los que explorarás la ciudad. Los Veja son las zapatillas que están en tendencia entre las mujeres francesas en este momento. Puedes comprarlos en París en los principales almacenes de la ciudad o en las tiendas Veja, además te llevaras un gran souvenir de tu viaje: combinan con todo y están muy lindos."
+              },
+              {
+                "text": "Otro par de zapatillas favoritas son las de Madewell. Tienes que amoldarlos un poco antes de tu viaje, pero una vez que lo hagas, se moldearan a tus pies y te encantarán"
+              },
+              {
+                "text": "Te aconsejo que te prepares para largas caminatas en París, y tener mas de un par de zapatos para que estes cambiándolos, y así puedas mantener tus pies cómodos. Te aseguro que la mejor manera de conocer París es a pie, aunque el metro o el autobús son una gran opción para cruzar la ciudad de forma rápida y sencilla si no quieres caminar. "
+              },
+              {
+                "text": "Si empacas un par de tacones, te recomiendo que sean de alpargata o los famosos “kitten heels” que ahora están en tendencia. París está llena de calles empedradas, así que como consejo mantente alejada de los tacones de aguja a menos que te subas a un taxi directamente a cenar. "
+              }
+            ]
+          },
+          {
+            "subtitle": "Lleva un armario cápsula neutro ",
+            "paragraphs": [
+              {
+                "text": "Los clásicos atemporales siempre son una buena idea cuando haces las maletas para París. Los estilos parisinos que están de moda incluyen faldas midi, bolsos cruzados, zapatos Birkenstock y pantalones anchos. Así es, también los skinny jeans ya no están de moda en París. Por supuesto, que puedes llevarlos, pero no te sorprendas si ves pantalones anchos de cintura alta. Te recomiendo que lleves un armario cápsula neutro, el cual consta de camisetas básicas, un vestido negro, un buen par de jeans, flats, y zapatillas deportivas. Puedes mezclar y combinar estos elementos para armar muchos outfits en Paris, e incluso empacarlos todos en tu equipaje de mano. ",
+                "image": "/img/img-post1-B.png"
+              },
+              {
+                "text": "Te recomiendo que lleves un par de shorts que no sean tan cortos, los mom shorts pueden ser una gran opción. Además, empaca un suéter para los días mas fríos o una chaqueta ligera, puede ser de mezclilla que combina perfecto con vestidos, o si estas planeando viajar entre mayo o junio, puedes llevar una chaqueta de cuero. "
+              },
+              {
+                "text": "Una bufanda es un accesorio parisino perfecto, e incluso en el verano, veras a mujeres francesas usando una bufanda ligera como accesorio, ¡se ven increíbles! Además, siempre puedes atarla a tu bolsa para darle un toque de color. "
+              }
+            ]
+          },
+          {
+            "subtitle": "Ir a París sin parecer un turista: claves para pasar desapercibido",
+            "paragraphs": [
+              {
+                "text": "Deja la ropa de gimnasio en casa, incluyendo tus Licas Lululemon favoritas, guárdalas para el vuelo de regreso. Las marcas ostentosas, los colores muy brillantes y las zapatillas de gimnasio serán una señal segura de que eres un turista. Opta por un look sin mucho esfuerzo y utiliza colores neutros."
+              }
+              
+            ]
+          },
+          {
+            "subtitle": "Accesorios de viaje para París",
+            "paragraphs": [
+              {
+                "text": "Si es que estás pensando en llevar uno, te aconsejo que sea un adaptador de viaje para cargar tu teléfono, computadora o cámara. Ideal para traerlo en tu mochila o bolsa para cualquier emergencia. "
+              },
+              {
+                "text": "Ahora si, ya tienes una idea y los mejores tips para empacar tu maleta de viaje a París en verano. ¡Que vivan los viajes especiales para celebrar la vida!"
+              },
+              {
+                "text": "Si ya estás planeando tu viaje y necesitas ayuda, no dudes en contactarme a través de WhatsApp o enviándonos un mensajito a hola@captourist.com . "
+              },
+              {
+                "text": "Las fotos y los videos nos ayudan a revivir experiencias únicas. Así que si tienes un viaje especial de luna de miel, de aniversario, un viaje con tu mamá, cualquier momento de vida…  no dudes en contactarnos por ✅ WhatsApp o enviándonos un mensajito  a hola@captourist.com"
+              }
+            ]
+          },
+          {
+            "subtitle": "💌 SHARING IS CARING 👇🏼",
+            "paragraphs": [
+              {
+                "image": "/img/foto-post-1.jpg"
+              }
+              
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "id": 2,
+       "image": "/img/img-post2.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "TU VIAJE DE XV AÑOS EN PARÍS – Tips Clave Para Planear Tu Viaje",
+        "paragraphs": [
+            {
+            "text": "¿Sueñas en celebrar tus XV años en París? Si estás por cumplir quince años y has elegido un viaje para celebrarlo a París en lugar de una fiesta tradicional, este post es para ti . "
+            },
+            {
+              "text": "Me parece curioso cómo anteriormente una fiesta de quince años era el sueño de toda niña, esperaban con ansias ese día en el que todos sus amigos y familia las vieran llegar con un vestido pomposo de su color favorito y pasaran una noche de cuento de hadas.  "
+            },
+            {
+              "text": "Ahora son cada vez más las familias que buscan una experiencia especial  e inolvidable para sus hijas que están por cumplir quince años. Definitivamente, el mejor lugar para lograrlo es París, “la ciudad de las luces”, y tal vez la más hermosa y romántica de todas.  "
+            },
+            {
+              "text": "Siempre he sido súper fan de esta idea de celebrar tus quince años de una manera muy especial, rompiendo un poco las tradiciones para atreverse a vivir una experiencia única entre todas. Tan solo imagínate poder celebrar tus quince años en París con actividades y fotos espectaculares. "
+            },
+            {
+              "text": "Prepararte para tu viaje tan especial es el 90% de qué tan bien la pasarás en París. ¡Pero no te preocupes! Aquí estoy yo para ayudarte a que este viaje de quinceañera salga tal cual siempre lo soñaste. Por eso es que te traigo 6 tips clave para planear un viaje de quinceañera a París de ensueño. "
+            }
+          ],
+        "content": [
+          {
+            "subtitle": "¿QUÉ EMPACAR PARA PARÍS EN VERANO?",
+            "paragraphs": [
+              {
+                "text": "Puedes utilizar nuestra lista de equipaje para París y sugerencias que te ayuden a empacar tu maleta para París en verano. Te recomiendo mezclar y combinar el estilo parisino con el tuyo para hacerlo único. Sabemos que existe el famoso estereotipo de “chica francesa look”, el cual está en constante evolución, y estoy segura que te darás cuenta mientras exploras la ciudad. "
+           
+              }
+            ]
+          },
+
+          {
+            "subtitle": "Clima de París en el verano",
+            "paragraphs": [
+              {
+                "text": "La primer recomendación que te voy a dar es que revises la aplicación del clima antes de viajar y hagas las modificaciones necesarias en tu armario.",
+                "image": "/img/img-post1-A.png"
+              },
+              {
+                "text": "El pronostico de la lluvia puede cambiar diariamente en Paris. Anticipa al menos un día de lluvia durante tu viaje."
+              }
+            ]
+          },
+          {
+            "subtitle": "Horas de luz en París",
+            "paragraphs": [
+              {
+                "text": "En junio, el amanecer es alrededor de las 5:45 am y el atardecer es aproximadamente a las 9:45 pm."
+              }
+            ]
+          },
+          {
+            "subtitle": "Zapatos cómodos para París en verano",
+            "paragraphs": [
+              {
+                "text": "Llevar zapatos cómodos para París no es un negociable. Seguramente estás pensando en qué zapatillas llevar en tu maleta para los días largos en los que explorarás la ciudad. Los Veja son las zapatillas que están en tendencia entre las mujeres francesas en este momento. Puedes comprarlos en París en los principales almacenes de la ciudad o en las tiendas Veja, además te llevaras un gran souvenir de tu viaje: combinan con todo y están muy lindos."
+              },
+              {
+                "text": "Otro par de zapatillas favoritas son las de Madewell. Tienes que amoldarlos un poco antes de tu viaje, pero una vez que lo hagas, se moldearan a tus pies y te encantarán"
+              },
+              {
+                "text": "Te aconsejo que te prepares para largas caminatas en París, y tener mas de un par de zapatos para que estes cambiándolos, y así puedas mantener tus pies cómodos. Te aseguro que la mejor manera de conocer París es a pie, aunque el metro o el autobús son una gran opción para cruzar la ciudad de forma rápida y sencilla si no quieres caminar. "
+              },
+              {
+                "text": "Si empacas un par de tacones, te recomiendo que sean de alpargata o los famosos “kitten heels” que ahora están en tendencia. París está llena de calles empedradas, así que como consejo mantente alejada de los tacones de aguja a menos que te subas a un taxi directamente a cenar. "
+              }
+            ]
+          },
+          {
+            "subtitle": "Lleva un armario cápsula neutro ",
+            "paragraphs": [
+              {
+                "text": "Los clásicos atemporales siempre son una buena idea cuando haces las maletas para París. Los estilos parisinos que están de moda incluyen faldas midi, bolsos cruzados, zapatos Birkenstock y pantalones anchos. Así es, también los skinny jeans ya no están de moda en París. Por supuesto, que puedes llevarlos, pero no te sorprendas si ves pantalones anchos de cintura alta. Te recomiendo que lleves un armario cápsula neutro, el cual consta de camisetas básicas, un vestido negro, un buen par de jeans, flats, y zapatillas deportivas. Puedes mezclar y combinar estos elementos para armar muchos outfits en Paris, e incluso empacarlos todos en tu equipaje de mano. ",
+                "image": "/img/img-post1-B.png"
+              },
+              {
+                "text": "Te recomiendo que lleves un par de shorts que no sean tan cortos, los mom shorts pueden ser una gran opción. Además, empaca un suéter para los días mas fríos o una chaqueta ligera, puede ser de mezclilla que combina perfecto con vestidos, o si estas planeando viajar entre mayo o junio, puedes llevar una chaqueta de cuero. "
+              },
+              {
+                "text": "Una bufanda es un accesorio parisino perfecto, e incluso en el verano, veras a mujeres francesas usando una bufanda ligera como accesorio, ¡se ven increíbles! Además, siempre puedes atarla a tu bolsa para darle un toque de color. "
+              }
+            ]
+          },
+          {
+            "subtitle": "Ir a París sin parecer un turista: claves para pasar desapercibido",
+            "paragraphs": [
+              {
+                "text": "Deja la ropa de gimnasio en casa, incluyendo tus Licas Lululemon favoritas, guárdalas para el vuelo de regreso. Las marcas ostentosas, los colores muy brillantes y las zapatillas de gimnasio serán una señal segura de que eres un turista. Opta por un look sin mucho esfuerzo y utiliza colores neutros."
+              }
+              
+            ]
+          },
+          {
+            "subtitle": "Accesorios de viaje para París",
+            "paragraphs": [
+              {
+                "text": "Si es que estás pensando en llevar uno, te aconsejo que sea un adaptador de viaje para cargar tu teléfono, computadora o cámara. Ideal para traerlo en tu mochila o bolsa para cualquier emergencia. "
+              },
+              {
+                "text": "Ahora si, ya tienes una idea y los mejores tips para empacar tu maleta de viaje a París en verano. ¡Que vivan los viajes especiales para celebrar la vida!"
+              },
+              {
+                "text": "Si ya estás planeando tu viaje y necesitas ayuda, no dudes en contactarme a través de WhatsApp o enviándonos un mensajito a hola@captourist.com . "
+              },
+              {
+                "text": "Las fotos y los videos nos ayudan a revivir experiencias únicas. Así que si tienes un viaje especial de luna de miel, de aniversario, un viaje con tu mamá, cualquier momento de vida…  no dudes en contactarnos por ✅ WhatsApp o enviándonos un mensajito  a hola@captourist.com"
+              }
+            ]
+          },
+          {
+            "subtitle": "💌 SHARING IS CARING 👇🏼",
+            "paragraphs": [
+              {
+                "image": "/img/foto-post-1.jpg"
+              }
+              
+            ]
+          }
+
+        ]
+      },
+
+      {
+        "id": 3,
+         "image": "/img/img-post3.jpg",
+         "fecha":"15 de mayo 2024",
+        "title": "QUINCEAÑERA EN PARIS –Consejos Para Tu Sesión De Fotos Perfecta",
+        "paragraphs": [
+            {
+            "text": "Se acerca el día de tu sesión de fotos de quinceañera y, ¿te pone de nervios que no salgan bien? Lo hemos comprobado, a medida que pasa el tiempo, las fotografías hacen que cada momento de nuestro viaje sea aún más valioso. Por esta razón creemos.."
+            }
+          ]
+      },
+
+      {
+        "id": 4,
+        "image": "/img/img-post4.jpeg",
+        "fecha":"15 de mayo 2024",
+        "title": "Viajes Con Sentido Para Celebrar La Vida",
+        "paragraphs": [
+            {
+            "text": "¿Se han dado cuenta de lo mucho que cambió el mundo y nuestra manera de vivir después de la sacudida que nos dio la pandemia? Pablo y yo somos fotógrafos y videógrafos en París. 💕 En 2017, viviendo en Madrid, comenzamos a construir una red de..."
+            }
+          ]
+      },
+
+      {
+        "id": 5,
+        "image": "/img/img-post5.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "Un Retrato Moderno Para Tu Marca Personal",
+        "paragraphs": [
+            {
+            "text": "Las primeras impresiones cuentan mucho, y la mayoría de las veces ocurren en LinkedIn. Los expertos dicen que deberías usar esta plataforma profesional como un CV que tenga vida. Esto quiere decir que tu perfil siempre debe estar completo, activo y con una foto de..."
+            }
+          ]
+      },
+
+      {
+        "id": 6,
+        "image": "/img/img-post6.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "Consejos Y Trucos Para Una Sesión De Fotos En Familia Perfecta.",
+        "paragraphs": [
+            {
+            "text": "Se acerca el día de tu sesión de fotos  en familia y, ¿te pone de nervios que no salgan bien? Lo hemos comprobado, a medida que pasa el tiempo, las fotografías hacen que cada momento de nuestro viaje sea aún más valioso. Por esta razón creemos..."
+            }
+          ]
+      },
+
+      {
+        "id": 7,
+        "image": "/img/img-post7.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "Propuesta de Matrimonio en París. Consejos para dar el anillo de compromiso en París",
+        "paragraphs": [
+            {
+            "text": "Así que has encontrado a tu otra mitad, esa persona con la que quieres pasar el resto de tu vida. Ahora toca dar el siguiente paso: lanzarle a tu media naranja ¡La Gran Pregunta! PROPUESTA DE MATRIMONIO EN PARIS París es un lugar fantástico donde puedes proponer..."
+            }
+          ]
+      },
+
+      
+      {
+        "id": 8,
+        "image": "/img/img-post8.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "Los mejores lugares para tu sesión de fotos en Valencia.",
+        "paragraphs": [
+            {
+            "text": "¡Bienvenido a Valencia! La tercera ciudad más grande de España te da la bienvenida con impresionantes atracciones, festivales únicos y una gran variedad de deliciosos platillos. Valencia es una ciudad pequeña, pero contiene cosas sorprendentes para hacer y ver. Una ciudad con historia romana y edificios..."
+            }
+          ]
+      },
+
+      {
+        "id": 9,
+        "image": "/img/img-post9.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "Los mejores lugares para tu sesión de fotos en Venecia.",
+        "paragraphs": [
+            {
+            "text": "¡BIENVENIDO A VENECIA! Una ciudad con un encanto único, con gran importancia histórica y una belleza asombrosa que te invita a conocer sus góndolas, canales, fachadas coloridas, arquitectura diversa, festivales de relevancia mundial, arte y más. ¡Los mejor lugaesr para tu sesión de fotos los tiene..."
+            }
+          ]
+      },
+
+      {
+        "id": 10,
+        "image": "/img/img-post9.jpg",
+        "fecha":"15 de mayo 2024",
+        "title": "10 Things You Must Do In Barcelona",
+        "paragraphs": [
+            {
+            "text": "Barcelona, Barcelona. The city that never ceases to surprise us.  If you ever decide that your heart belongs there infinitely, or realistically just for a few days, not to worry, that’s what I’m here for. I will tell you now 10 things that you must do, so..."
+            }
+          ]
+      }
+
+
+    ]
+  }
+}
