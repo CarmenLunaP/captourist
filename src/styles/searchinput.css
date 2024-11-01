@@ -1,18 +1,35 @@
-
-
-/* Asegúrate de que el borde no cambie en el estado de focus */
 .input-field {
-  font-weight: normal; /* Mantener el texto sin negrita */
-  border: 1px solid #ccc; /* Color de borde predeterminado */
+  font-weight: normal; 
+  font-size: 16px;
+  font-family: var(--font-secondary);
+  color: #4c4c4c;;
+  border:1px solid #5aa5c3 !important;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 580px;
+  height: 45px;
+  padding: 5px 15px 8px 50px;
+  margin-top: 15px;
 }
 
 .input-field:focus {
-  font-weight: normal; /* Asegúrate de que no se ponga en negrita al hacer focus */
-  border: 1px solid #ccc; /* Mantener el borde sin cambio de color */
-  outline: none; /* Elimina el borde azul predeterminado en algunos navegadores */
+  font-weight: normal; 
+  /* border: 1px solid #ccc;  */
+  outline: none; 
 }
 
-/* Mantén el color del placeholder sin cambios al hacer clic */
+.input-field::placeholder {
+  font-family: var(--font-secondary);
+  color:var(--font-primary);
+  font-size: 14px;
+  
+}
+
+/* Mantener el color del placeholder sin cambios al hacer clic */
 .input-field:focus::placeholder {
   color: #ccc;
 }
@@ -74,24 +91,10 @@
   padding: 15px 0px 0px 0px;
   left: 10px;
   font-size: 35px;
-  color: #265669;
+  color: #5aa5c3;
 }
 
-.input-field {
-  width: 100%;
-  max-width: 580px;
-  height: 45px;
-  padding: 0px 15px 8px 50px;
-  margin-top: 20px;
-  border: 0.5px solid #7F7F7F;
-  border-radius: 4px;
-}
 
-.input-field::placeholder {
-  font-family: var(--font-secondary);
-  color: #7F7F7F;
-  font-size: 14px;
-}
 
 
 .country-group {

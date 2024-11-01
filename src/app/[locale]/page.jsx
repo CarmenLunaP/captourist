@@ -39,16 +39,30 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="phrases-container">
+          <p className="phrases">{t("phrases")}</p>
+        </div>
 
         {/* SECCCION 2 - Bonjour */}
         <div className="sec-2-home">
           <div className="secc-2-Video">
-            <Image
+            <video
+              src="/video/video.mp4"
+              alt="Captourist Video"
+              width="720"
+              height="405"
+              controls
+              autoPlay
+              loop
+              muted
+              style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            />
+            {/* <Image
               src="/img/pabloyfernanda800x700-600x525.jpg"
               alt="Captourist Logo"
               layout="fill"
               objectFit="cover"
-            />
+            /> */}
           </div>
 
           <div className="secc-2-texto">
@@ -152,7 +166,7 @@ export default function Home() {
                 src="/img/logo_pg-guarantee_desktop.png"
                 alt="Photographer Guarantee Logo"
                 width={125}
-                height={40}
+                height={35}
               />
               <h1 className="sec-4-title">{t("sec-4-title")}</h1>
               <p className="sec-4-text">{t("sec-4-text1")}</p>
@@ -169,6 +183,7 @@ export default function Home() {
         {/* SECCCION 5 - How Captourist Works*/}
         <section className="sec-5-home">
           <div className="sec-5-title">
+           
             <h2>{t("sec-5-title")}</h2>
             <div className="secc-5-text-content">
               <p>{t("sec-5-text1")}</p>
@@ -177,6 +192,7 @@ export default function Home() {
             </div>
           </div>
           <div className="sec-5-steps">
+            <div className="sec-5-steps-cards">
             <div className="step">
               <h3>01</h3>
               <h4>{t("sec-5-step1-title")}</h4>
@@ -196,6 +212,7 @@ export default function Home() {
               <h3>04</h3>
               <h4>{t("sec-5-step4-title")}</h4>
               <p>{t("sec-5-step4-text")}</p>
+            </div>
             </div>
           </div>
         </section>
@@ -217,10 +234,8 @@ export default function Home() {
                 <h3 className="sec-6-card-title">{t("sec-6-card1-title")}</h3>
                 <p className="sec-6-card-subtitle">{t("sec-6-card1-text")}</p>
               </div>
-              
-      
+
               <button className="sec-6-button"> {t("sec-6-text-btn1")}</button>
-        
             </div>
 
             <div className="card-6">
@@ -261,7 +276,10 @@ export default function Home() {
               <h1 className="sec-7-title">{t("sec-7-title")}</h1>
               <p className="sec-7-text">{t("sec-7-text1")}</p>
               <Link href="/book_now" passHref>
-              <button className="sec-7-button"> {t("sec-7-text-btn1")}</button>
+                <button className="sec-7-button">
+                  {" "}
+                  {t("sec-7-text-btn1")}
+                </button>
               </Link>
             </div>
 
@@ -312,7 +330,6 @@ export default function Home() {
                     {t("sec-8-text-btn1")}
                   </button>
                 </a>
-
               </div>
               <div className="instagram-post">
                 <img
